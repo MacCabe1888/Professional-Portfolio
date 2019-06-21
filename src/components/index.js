@@ -4,7 +4,7 @@ import Dossier from "./Dossier/index";
 import Nav from "./Nav/index";
 import NoMatch from "./NoMatch/index";
 import Page from "./Page/index";
-import Portfolio from "./Portfolio/index";
+import Projects from "./Projects/index";
 import Skills from "./Skills/index";
 
 export {
@@ -14,6 +14,6 @@ export {
   Nav,
   NoMatch,
   Page,
-  Portfolio,
+  Projects,
   Skills
 };

@@ -5,7 +5,7 @@ import "./style.css";
 class Nav extends Component {
   constructor(props) {
     super(props);
-    this.pages = ["about", "skills", "portfolio", "contact"];
+    this.pages = ["about", "skills", "projects", "contact"];
     this.pageName = window.location.href.split("/").pop();
   }
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Nav, Page } from "../";
 import "./style.css";
 
-class Portfolio extends Component {
+class Projects extends Component {
   render() {
     return (
       <div>
@@ -10,8 +10,8 @@ class Portfolio extends Component {
           class="nav-left"
           pageIndex={2}
         />
-        <Page pageName="portfolio" page="left" />
-        <Page pageName="portfolio" page="right" />
+        <Page pageName="projects" page="left" />
+        <Page pageName="projects" page="right" />
         <Nav
           class="nav-right"
           pageIndex={2}
@@ -21,4 +21,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Projects;
