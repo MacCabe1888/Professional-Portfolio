@@ -10,8 +10,10 @@ class Contact extends Component {
           class="nav-left"
           pageIndex={3}
         />
-        <Page pageName="contact" page="left" />
-        <Page pageName="contact" page="right" />
+        <div className="pages">
+          <Page pageName="contact" page="left" />
+          <Page pageName="contact" page="right" />
+        </div>
         <Nav
           class="nav-right"
           pageIndex={3}

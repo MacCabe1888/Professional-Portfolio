@@ -10,8 +10,10 @@ class About extends Component {
           class="nav-left"
           pageIndex={0}
         />
-        <Page pageName="about" page="left" />
-        <Page pageName="about" page="right" />
+        <div className="pages">
+          <Page pageName="about" page="left" />
+          <Page pageName="about" page="right" />
+        </div>
         <Nav
           class="nav-right"
           pageIndex={0}

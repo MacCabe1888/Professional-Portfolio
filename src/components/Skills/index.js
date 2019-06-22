@@ -10,8 +10,10 @@ class Skills extends Component {
           class="nav-left"
           pageIndex={1}
         />
-        <Page pageName="skills" page="left" />
-        <Page pageName="skills" page="right" />
+        <div className="pages">
+          <Page pageName="skills" page="left" />
+          <Page pageName="skills" page="right" />
+        </div>
         <Nav
           class="nav-right"
           pageIndex={1}

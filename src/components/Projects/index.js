@@ -10,8 +10,10 @@ class Projects extends Component {
           class="nav-left"
           pageIndex={2}
         />
-        <Page pageName="projects" page="left" />
-        <Page pageName="projects" page="right" />
+        <div className="pages">
+          <Page pageName="projects" page="left" />
+          <Page pageName="projects" page="right" />
+        </div>
         <Nav
           class="nav-right"
           pageIndex={2}
