@@ -22,24 +22,22 @@ class Nav extends Component {
       return (<div />);
     }
     return (
-      <div>
-        <nav>
-          {this.pages.map((pageName, pageIndex) => {
-            return (
-              this.hasTab(pageIndex)
-              ? <Link key={pageIndex} to={"/" + pageName}>
-                  <button className="nav-text">
-                    {pageName.toUpperCase()}
-                  </button>
-                </Link>
-              : <div
-                  key={pageIndex}
-                  className="tab-space"
-                />
-            );
-          })}
-        </nav>
-      </div>
+      <nav>
+        {this.pages.map((pageName, pageIndex) => {
+          return (
+            this.hasTab(pageIndex)
+            ? <Link key={pageIndex} to={"/" + pageName}>
+                <button className="nav-tab">
+                  {pageName.toUpperCase()}
+                </button>
+              </Link>
+            : <div
+                key={pageIndex}
+                className="tab-space"
+              />
+          );
+        })}
+      </nav>
     );
   }
 }

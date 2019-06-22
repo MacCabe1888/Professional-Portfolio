@@ -5,7 +5,7 @@ import "./style.css";
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="content">
         <Nav
           class="nav-left"
           pageIndex={2}

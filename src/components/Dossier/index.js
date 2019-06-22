@@ -6,16 +6,16 @@ import "./style.css";
 class Dossier extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Router>
-            <Switch>
-              <Route path="/" exact component={About} />
-              <Route path="/about" component={About} />
-              <Route path="/skills" component={Skills} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/contact" component={Contact} />
-              <Route component={NoMatch} />
-            </Switch>
+          <Switch>
+            <Route path="/" exact component={About} />
+            <Route path="/about" component={About} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
         </Router>
       </div>
     );

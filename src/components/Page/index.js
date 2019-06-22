@@ -4,7 +4,7 @@ import "./style.css";
 class Page extends Component {
   render() {
     return (
-      <div>
+      <div className="page">
         {this.props.page} page of {this.props.pageName}
       </div>
     );
