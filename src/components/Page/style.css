@@ -1,0 +1,4 @@
+div.page {
+  width: calc(50% - 88px);
+  border: 1px black solid;
+}
