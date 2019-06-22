@@ -28,7 +28,9 @@ class Nav extends Component {
             this.hasTab(pageIndex)
             ? <Link key={pageIndex} to={"/" + pageName}>
                 <button className="nav-tab">
-                  {pageName.toUpperCase()}
+                  <p className="nav-text">
+                    {pageName.toUpperCase()}
+                  </p>
                 </button>
               </Link>
             : <div
