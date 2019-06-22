@@ -4,10 +4,39 @@ div {
 }
 
 div.container {
-  width: 80%;
-  margin: 0 10% 0 10%;
+  width: 80vw;
+  height: 70vh;
+  margin: 15vh 10vw;
+}
+
+div.pages {
+  width: calc(100% - 144px);
 }
 
 div.content {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  div.container {
+    width: 90vw;
+    margin: 15vh 5vw;
+  }
+
+  div.pages {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.container {
+    width: 95vw;
+    margin: 15vh 2.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.pages {
+    flex-direction: column;
+  }
 }
