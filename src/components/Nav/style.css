@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 88px;
+  border: 1px black solid;
+}
+
+.nav-tab {
+  width: 100%;
+}
+
+.tab-space {
+  height: 23px;
+}
