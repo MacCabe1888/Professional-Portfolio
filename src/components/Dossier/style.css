@@ -1,8 +1,13 @@
 div {
   display: flex;
+  justify-content: center;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
+div.container {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+div.content {
+  width: 100%;
 }
