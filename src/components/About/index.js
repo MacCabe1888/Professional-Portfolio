@@ -12,7 +12,17 @@ class About extends Component {
         />
         <div className="pages">
           <Page pageName="about" page="left" />
-          <Page pageName="about" page="right" />
+          <Page pageName="about" page="right">
+            <p>
+              I graduated <i>magna cum laude</i> from Columbia University in 2016 with a Bachelor of Arts degree in Philosophy and Music.
+            </p>
+            <p>
+              In May 2019, I completed my Web Development certification through UC Berkeley Extension's full-time, full-stack, full-night's-sleep-depriving coding boot camp.
+            </p>
+            <p>
+              While full-stack web development is currently my main focus, I am also curious about AI programming and video game development.
+            </p>
+          </Page>
         </div>
         <Nav
           class="nav-right"
