@@ -13,8 +13,11 @@ class About extends Component {
         <div className="pages">
           <Page pageName="about" page="left" />
           <Page pageName="about" page="right">
+            <h2>
+              About Me
+            </h2>
             <p>
-              I graduated <i>magna cum laude</i> from Columbia University in 2016 with a Bachelor of Arts degree in Philosophy and Music.
+              I graduated <i>magna cum laude</i> from Columbia University with a Bachelor of Arts degree in Philosophy and Music.
             </p>
             <p>
               In May 2019, I completed my Web Development certification through UC Berkeley Extension's full-time, full-stack, full-night's-sleep-depriving coding boot camp.
