@@ -25,6 +25,9 @@ class About extends Component {
             <p>
               While full-stack web development is currently my main focus, I am also curious about AI programming and video game development.
             </p>
+            <p>
+              LOCATION: San Francisco Bay Area, CA
+            </p>
           </Page>
         </div>
         <Nav
