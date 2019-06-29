@@ -16,8 +16,10 @@ class Projects extends Component {
           <Page pageName="projects" page="left" />
           <Page pageName="projects" page="right">
             <Project
+              siteURL="https://github.com/MacCabe1888/Bamazon"
+              repoURL="https://github.com/MacCabe1888/Bamazon"
               imgSrc={bamazon}
-              imgAlt="Bamazon"
+              name="Bamazon"
             />
           </Page>
         </div>
