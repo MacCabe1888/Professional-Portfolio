@@ -5,10 +5,17 @@ class Project extends Component {
   render() {
     return (
       <div className="project">
-        <img
-          src={this.props.imgSrc}
-          alt={this.props.imgAlt}
-        />
+        <a href={this.props.siteURL}>
+          <img
+            src={this.props.imgSrc}
+            alt={this.props.name}
+          />
+        </a>
+        <a href={this.props.repoURL}>
+          <p>
+            {this.props.name}
+          </p>
+        </a>
       </div>
     );
   }
