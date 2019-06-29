@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Nav, Page } from "../";
+import { Nav, Page, Project } from "../";
 import "./style.css";
+
+import bamazon from "../../images/Bamazon.png";
 
 class Projects extends Component {
   render() {
@@ -12,7 +14,12 @@ class Projects extends Component {
         />
         <div className="pages">
           <Page pageName="projects" page="left" />
-          <Page pageName="projects" page="right" />
+          <Page pageName="projects" page="right">
+            <Project
+              imgSrc={bamazon}
+              imgAlt="Bamazon"
+            />
+          </Page>
         </div>
         <Nav
           class="nav-right"
