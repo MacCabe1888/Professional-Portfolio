@@ -1,7 +1,10 @@
 img {
+  display: block;
   max-width: 100%;
 }
 
 .project {
   display: block;
+  border: 1px black solid;
+  margin-top: 10px;
 }
