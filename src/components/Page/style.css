@@ -1,18 +1,19 @@
 div.page {
   display: block;
   text-align: center;
+  overflow: auto;
   width: 50%;
   padding: 10px;
   border: 1px black solid;
 }
 
 div > p {
-  text-align: justify;
+  text-align: left;
 }
 
 @media screen and (max-width: 600px) {
   div.page {
-    width: 100%;
+    width: calc(100% - 22px);
     height: 50%;
   }
 }
