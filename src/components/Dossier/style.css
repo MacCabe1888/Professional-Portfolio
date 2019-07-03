@@ -28,14 +28,12 @@ div.content {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   div.container {
     width: 95vw;
     margin: 15vh 2.5vw;
   }
-}
 
-@media screen and (max-width: 600px) {
   div.pages {
     flex-direction: column;
   }
