@@ -1,10 +1,15 @@
 img {
-  display: block;
-  max-width: 100%;
+  min-width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  margin-top: 10px;
 }
 
-.project {
-  display: block;
+div.project {
+  flex-direction: column;
   border: 1px black solid;
   margin-top: 10px;
+}
+
+div.project > a {
+  justify-content: center;
 }
