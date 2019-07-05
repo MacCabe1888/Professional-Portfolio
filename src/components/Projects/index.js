@@ -2,11 +2,19 @@ import React, { Component } from "react";
 import { Nav, Page, Project } from "../";
 import "./style.css";
 
+import re from "../../images/React-Recall-Rearrange.png";
+import sequelized from "../../images/Sequelized-Burger.png";
 import burgers from "../../images/Burgers-to-Eat.png";
 import friends from "../../images/Friend-Finder.jpg";
 import bamazon from "../../images/Bamazon.png";
 import wordGuess from "../../images/Constructor-Word-Guess.png";
+import liri from "../../images/LIRI-Node-App.png";
+import moodie from "../../images/Moodie.jpg";
+import trains from "../../images/Train-Scheduler.jpg";
+import gifs from "../../images/SpongeMeme-SquareGIFs.jpg";
+import trivia from "../../images/Trivia-Game.png";
 import crystals from "../../images/Crystal-Collector-Game.jpg";
+import wordGame from "../../images/Word-Game.png";
 
 class Projects extends Component {
   render() {
@@ -19,6 +27,18 @@ class Projects extends Component {
         <div className="pages">
           <Page pageName="projects" page="left" />
           <Page pageName="projects" page="right">
+            <Project
+              siteURL="https://maccabe1888.github.io/React-Recall-Rearrange/"
+              repoURL="https://github.com/MacCabe1888/React-Recall-Rearrange"
+              imgSrc={re}
+              name="React, Recall, Rearrange!"
+            />
+            <Project
+              siteURL="https://dry-savannah-83735.herokuapp.com/"
+              repoURL="https://github.com/MacCabe1888/Sequelized-Burger"
+              imgSrc={sequelized}
+              name="Sequelized Burger"
+            />
             <Project
               siteURL="https://thawing-ocean-73628.herokuapp.com/"
               repoURL="https://github.com/MacCabe1888/Burgers-to-Eat"
@@ -44,10 +64,46 @@ class Projects extends Component {
               name="Constructor Word Guess"
             />
             <Project
+              siteURL="https://github.com/MacCabe1888/LIRI-Node-App"
+              repoURL="https://github.com/MacCabe1888/LIRI-Node-App"
+              imgSrc={liri}
+              name="LIRI Node App"
+            />
+            <Project
+              siteURL="https://maccabe1888.github.io/Moodie/"
+              repoURL="https://github.com/MacCabe1888/Moodie"
+              imgSrc={moodie}
+              name="Moodie"
+            />
+            <Project
+              siteURL="https://maccabe1888.github.io/Train-Scheduler/"
+              repoURL="https://github.com/MacCabe1888/Train-Scheduler"
+              imgSrc={trains}
+              name="Train Scheduler"
+            />
+            <Project
+              siteURL="https://maccabe1888.github.io/SpongeMeme-SquareGIFs/"
+              repoURL="https://github.com/MacCabe1888/SpongeMeme-SquareGIFs"
+              imgSrc={gifs}
+              name="SpongeMeme SquareGIFs"
+            />
+            <Project
+              siteURL="https://maccabe1888.github.io/Trivia-Game/"
+              repoURL="https://github.com/MacCabe1888/Trivia-Game"
+              imgSrc={trivia}
+              name="Mardi Gras Mania: A Trivia Game"
+            />
+            <Project
               siteURL="https://maccabe1888.github.io/Crystal-Collector-Game/"
               repoURL="https://github.com/MacCabe1888/Crystal-Collector-Game"
               imgSrc={crystals}
               name="Crystal Collector Game"
+            />
+            <Project
+              siteURL="https://maccabe1888.github.io/Word-Game/"
+              repoURL="https://github.com/MacCabe1888/Word-Game"
+              imgSrc={wordGame}
+              name="Word Game"
             />
           </Page>
         </div>
