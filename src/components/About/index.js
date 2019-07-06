@@ -7,11 +7,57 @@ class About extends Component {
     return (
       <div className="content">
         <Nav
-          class="nav-left"
+          className="nav-left"
           pageIndex={0}
         />
         <div className="pages">
-          <Page pageName="about" page="left" />
+          <Page pageName="about" page="left">
+            <h2>
+              My Profile
+            </h2>
+            <section id="visit">
+              <h3>
+                Visit
+              </h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/cameron-maccabe-5a47b917a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin" /> LinkedIn
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/MacCabe1888"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-github" /> GitHub
+                </a>
+              </p>
+              <p>
+                <a
+                  href="MacCabeRésumé.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="far fa-file" /> Résumé
+                </a>
+              </p>
+            </section>
+            <section id="download">
+              <h3>
+                Download
+              </h3>
+              <p>
+                <a href="MacCabeRésumé.pdf" download>
+                  <i className="far fa-file" /> Résumé
+                </a>
+              </p>
+            </section>
+          </Page>
           <Page pageName="about" page="right">
             <h2>
               About Me
@@ -31,7 +77,7 @@ class About extends Component {
           </Page>
         </div>
         <Nav
-          class="nav-right"
+          className="nav-right"
           pageIndex={0}
         />
       </div>
