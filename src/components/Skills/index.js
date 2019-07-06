@@ -7,7 +7,7 @@ class Skills extends Component {
     return (
       <div className="content">
         <Nav
-          class="nav-left"
+          className="nav-left"
           pageIndex={1}
         />
         <div className="pages">
@@ -15,7 +15,7 @@ class Skills extends Component {
           <Page pageName="skills" page="right" />
         </div>
         <Nav
-          class="nav-right"
+          className="nav-right"
           pageIndex={1}
         />
       </div>

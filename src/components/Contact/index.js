@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <div className="content">
         <Nav
-          class="nav-left"
+          className="nav-left"
           pageIndex={3}
         />
         <div className="pages">
@@ -25,7 +25,7 @@ class Contact extends Component {
           </Page>
         </div>
         <Nav
-          class="nav-right"
+          className="nav-right"
           pageIndex={3}
         />
       </div>

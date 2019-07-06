@@ -9,7 +9,7 @@ class Nav extends Component {
     this.pageName = window.location.href.split("/").pop();
   }
 
-  hasTab = this.props.class === "nav-left"
+  hasTab = this.props.className === "nav-left"
   ? pageIndex => {
       return pageIndex < this.props.pageIndex;
     }
