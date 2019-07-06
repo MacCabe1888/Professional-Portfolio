@@ -2,19 +2,19 @@ import React, { Component } from "react";
 import { Nav, Page, Project } from "../";
 import "./style.css";
 
-import re from "../../images/React-Recall-Rearrange.png";
-import sequelized from "../../images/Sequelized-Burger.png";
-import burgers from "../../images/Burgers-to-Eat.png";
-import friends from "../../images/Friend-Finder.jpg";
-import bamazon from "../../images/Bamazon.png";
-import wordGuess from "../../images/Constructor-Word-Guess.png";
-import liri from "../../images/LIRI-Node-App.png";
-import moodie from "../../images/Moodie.jpg";
-import trains from "../../images/Train-Scheduler.jpg";
-import gifs from "../../images/SpongeMeme-SquareGIFs.jpg";
-import trivia from "../../images/Trivia-Game.png";
-import crystals from "../../images/Crystal-Collector-Game.jpg";
-import wordGame from "../../images/Word-Game.png";
+import re from "../../assets/images/React-Recall-Rearrange.png";
+import sequelized from "../../assets/images/Sequelized-Burger.png";
+import burgers from "../../assets/images/Burgers-to-Eat.png";
+import friends from "../../assets/images/Friend-Finder.jpg";
+import bamazon from "../../assets/images/Bamazon.png";
+import wordGuess from "../../assets/images/Constructor-Word-Guess.png";
+import liri from "../../assets/images/LIRI-Node-App.png";
+import moodie from "../../assets/images/Moodie.jpg";
+import trains from "../../assets/images/Train-Scheduler.jpg";
+import gifs from "../../assets/images/SpongeMeme-SquareGIFs.jpg";
+import trivia from "../../assets/images/Trivia-Game.png";
+import crystals from "../../assets/images/Crystal-Collector-Game.jpg";
+import wordGame from "../../assets/images/Word-Game.png";
 
 class Projects extends Component {
   render() {
