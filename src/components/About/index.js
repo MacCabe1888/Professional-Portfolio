@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Nav, Page } from "../";
 import "./style.css";
 
@@ -25,7 +26,7 @@ class About extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fab fa-linkedin" /> LinkedIn
+                  <i className="fab fa-linkedin fa-lg" /> LinkedIn
                 </a>
               </p>
               <p>
@@ -34,8 +35,17 @@ class About extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fab fa-github" /> GitHub
+                  <i className="fab fa-github fa-lg" /> GitHub
                 </a>
+              </p>
+              <p>
+                <Link
+                  to="/projects"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="far fa-file-code fa-lg" /> Portfolio
+                </Link>
               </p>
               <p>
                 <a
@@ -43,7 +53,7 @@ class About extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="far fa-file" /> Résumé
+                  <i className="far fa-file-pdf fa-lg" /> Résumé
                 </a>
               </p>
             </section>
@@ -53,7 +63,7 @@ class About extends Component {
               </h3>
               <p>
                 <a href="MacCabeRésumé.pdf" download>
-                  <i className="far fa-file" /> Résumé
+                  <i className="far fa-file-pdf fa-lg" /> Résumé
                 </a>
               </p>
             </section>
