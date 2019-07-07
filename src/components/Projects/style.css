@@ -1,4 +1,4 @@
-img {
+.project-img {
   min-width: calc(100% - 20px);
   max-width: calc(100% - 20px);
   margin-top: 10px;

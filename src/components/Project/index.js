@@ -12,6 +12,7 @@ class Project extends Component {
         >
           <div className="img-container">
             <img
+              className="project-img"
               src={this.props.imgSrc}
               alt={this.props.name}
             />
