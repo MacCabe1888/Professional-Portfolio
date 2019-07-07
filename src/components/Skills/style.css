@@ -1,0 +1,11 @@
+section.skill {
+  padding: 10px 0 10px 0;
+}
+
+img.skill {
+  max-height: 50px;
+}
+
+#skill-2, #skill-3, #skill-4, #skill-5 {
+  margin-top: 10px;
+}
