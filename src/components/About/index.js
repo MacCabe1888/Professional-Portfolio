@@ -12,7 +12,7 @@ class About extends Component {
           pageIndex={0}
         />
         <div className="pages">
-          <Page pageName="about" page="left">
+          <Page>
             <h2>
               My Profile
             </h2>
@@ -68,7 +68,7 @@ class About extends Component {
               </p>
             </section>
           </Page>
-          <Page pageName="about" page="right">
+          <Page>
             <h2>
               About Me
             </h2>

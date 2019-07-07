@@ -11,8 +11,8 @@ class Contact extends Component {
           pageIndex={3}
         />
         <div className="pages">
-          <Page pageName="contact" page="left" />
-          <Page pageName="contact" page="right">
+          <Page />
+          <Page>
             <h2>
               Get in Touch
             </h2>

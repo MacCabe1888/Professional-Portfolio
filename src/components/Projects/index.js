@@ -25,8 +25,11 @@ class Projects extends Component {
           pageIndex={2}
         />
         <div className="pages">
-          <Page pageName="projects" page="left" />
-          <Page pageName="projects" page="right">
+          <Page />
+          <Page>
+            <h2>
+              Projects
+            </h2>
             <Project
               siteURL="https://maccabe1888.github.io/React-Recall-Rearrange/"
               repoURL="https://github.com/MacCabe1888/React-Recall-Rearrange"
