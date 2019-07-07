@@ -11,10 +11,6 @@ section {
   border: 1px black solid;
 }
 
-section#download {
-  margin-top: 19.92px;
-}
-
 div > p {
   text-align: left;
 }
