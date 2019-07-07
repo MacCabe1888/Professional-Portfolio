@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b26c5f75.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c2d068b5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c2d068b5.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9faac06d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c1409b88.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c1409b88.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.ab08202a.chunk.js": "/Portfolio/static/js/2.ab08202a.chunk.js",
-    "static/js/2.ab08202a.chunk.js.map": "/Portfolio/static/js/2.ab08202a.chunk.js.map",
+    "static/js/2.6c6acc12.chunk.js": "/Portfolio/static/js/2.6c6acc12.chunk.js",
+    "static/js/2.6c6acc12.chunk.js.map": "/Portfolio/static/js/2.6c6acc12.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.3556f3245fd2346a23a343b670d7902c.js": "/Portfolio/precache-manifest.3556f3245fd2346a23a343b670d7902c.js",
+    "precache-manifest.9e5b4ce74c1f9a541f8b70c37df339e6.js": "/Portfolio/precache-manifest.9e5b4ce74c1f9a541f8b70c37df339e6.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.b26c5f75.chunk.css.map": "/Portfolio/static/css/main.b26c5f75.chunk.css.map",
+    "static/css/main.9faac06d.chunk.css.map": "/Portfolio/static/css/main.9faac06d.chunk.css.map",
     "static/media/Bamazon.png": "/Portfolio/static/media/Bamazon.a02188e2.png",
     "static/media/Burgers-to-Eat.png": "/Portfolio/static/media/Burgers-to-Eat.b1714a21.png",
     "static/media/Crystal-Collector-Game.jpg": "/Portfolio/static/media/Crystal-Collector-Game.ecb10812.jpg",
@@ -21,6 +21,8 @@
     "static/media/SpongeMeme-SquareGIFs.jpg": "/Portfolio/static/media/SpongeMeme-SquareGIFs.9aacf2ba.jpg",
     "static/media/Train-Scheduler.jpg": "/Portfolio/static/media/Train-Scheduler.b8f8726b.jpg",
     "static/media/Trivia-Game.png": "/Portfolio/static/media/Trivia-Game.5d11304d.png",
-    "static/media/Word-Game.png": "/Portfolio/static/media/Word-Game.5415ebbf.png"
+    "static/media/Word-Game.png": "/Portfolio/static/media/Word-Game.5415ebbf.png",
+    "static/media/js.svg": "/Portfolio/static/media/js.dd60b11e.svg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.0e9cbb86.svg"
   }
 }

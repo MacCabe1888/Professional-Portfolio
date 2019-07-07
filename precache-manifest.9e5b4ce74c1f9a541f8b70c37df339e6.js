@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7f128331c8f8a747e56a1273511c15b",
+    "revision": "b11aaef3f79c9ac839b606b0545d60cb",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "bf6027f3904f27b72392",
-    "url": "/Portfolio/static/css/main.b26c5f75.chunk.css"
+    "revision": "4024b326c272a2ae03c7",
+    "url": "/Portfolio/static/css/main.9faac06d.chunk.css"
   },
   {
-    "revision": "23b81852ea489effca56",
-    "url": "/Portfolio/static/js/2.ab08202a.chunk.js"
+    "revision": "b8c889bd933a1e0e01d2",
+    "url": "/Portfolio/static/js/2.6c6acc12.chunk.js"
   },
   {
-    "revision": "bf6027f3904f27b72392",
-    "url": "/Portfolio/static/js/main.c2d068b5.chunk.js"
+    "revision": "4024b326c272a2ae03c7",
+    "url": "/Portfolio/static/js/main.c1409b88.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -62,5 +62,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5415ebbfb2f2e3da4e703794641f5fbc",
     "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
+  },
+  {
+    "revision": "dd60b11e9762b6e25f6d4ce981a1eeae",
+    "url": "/Portfolio/static/media/js.dd60b11e.svg"
+  },
+  {
+    "revision": "0e9cbb8651e964113aec5ae30df24ee8",
+    "url": "/Portfolio/static/media/logo.0e9cbb86.svg"
   }
 ]);
