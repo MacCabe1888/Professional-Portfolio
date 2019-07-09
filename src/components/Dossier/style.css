@@ -9,12 +9,30 @@ div.container {
   margin: 15vh 10vw;
 }
 
+div.content {
+  width: 100%;
+  perspective: 2500px;
+}
+
 div.pages {
   width: calc(100% - 144px);
 }
 
-div.content {
-  width: 100%;
+div.left-side, div.right-side {
+  width: calc(50% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  transition: all 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+div.left-side {
+  transform-origin: calc(100% + 10px);
+}
+
+div.right-side {
+  transform-origin: -10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,16 +43,5 @@ div.content {
 
   div.pages {
     width: calc(100% - 48px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.container {
-    width: 95vw;
-    margin: 15vh 2.5vw;
-  }
-
-  div.pages {
-    flex-direction: column;
   }
 }
