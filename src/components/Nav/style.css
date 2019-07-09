@@ -2,7 +2,6 @@ nav {
   display: flex;
   flex-direction: column;
   width: 72px;
-  border: 1px black solid;
 }
 
 a {
