@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Nav, Page } from "../";
+import { Nav } from "../";
+import { AboutLeft, AboutRight, ContactLeft, ContactRight, ProjectsLeft, ProjectsRight, SkillsLeft, SkillsRight } from "../index";
 import "./style.css";
-
-import logo from "../../logo.svg";
-import js from "../../js.svg";
 
 class Skills extends Component {
   render() {
@@ -14,29 +12,18 @@ class Skills extends Component {
           pageIndex={1}
         />
         <div className="pages">
-          <Page />
-          <Page>
-            <h2>
-              Skills
-            </h2>
-            <section id="skill-1" className="skill">
-              <img className="skill" src={logo} alt="React Logo" />
-              React
-            </section>
-            <section id="skill-2" className="skill">
-              <img className="skill" src={js} alt="JavaScript Logo" />
-              JavaScript
-            </section>
-            <section id="skill-3" className="skill">
-
-            </section>
-            <section id="skill-4" className="skill">
-
-            </section>
-            <section id="skill-5" className="skill">
-
-            </section>
-          </Page>
+          <div className="left-side">
+            <AboutRight type="hidden left" />
+            <SkillsLeft type="visible left" />
+            <ProjectsRight type="hidden left" />
+            <ContactRight type="hidden left" />
+          </div>
+          <div className="right-side">
+            <AboutLeft type="hidden right" />
+            <SkillsRight type="visible right" />
+            <ProjectsLeft type="hidden right" />
+            <ContactLeft type="hidden right" />
+          </div>
         </div>
         <Nav
           className="nav-right"

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Nav, Page } from "../";
+import { Nav } from "../";
+import { AboutLeft, AboutRight, ContactLeft, ContactRight, ProjectsLeft, ProjectsRight, SkillsLeft, SkillsRight } from "../index";
 import "./style.css";
 
 class Contact extends Component {
@@ -11,18 +12,18 @@ class Contact extends Component {
           pageIndex={3}
         />
         <div className="pages">
-          <Page />
-          <Page>
-            <h2>
-              Get in Touch
-            </h2>
-            <p>
-              EMAIL: cameronjmaccabe@gmail.com
-            </p>
-            <p>
-              PHONE: 925 899 5574
-            </p>
-          </Page>
+          <div className="left-side">
+            <AboutRight type="hidden left" />
+            <SkillsRight type="hidden left" />
+            <ProjectsRight type="hidden left" />
+            <ContactLeft type="visible left" />
+          </div>
+          <div className="right-side">
+            <AboutLeft type="hidden right" />
+            <SkillsLeft type="hidden right" />
+            <ProjectsLeft type="hidden right" />
+            <ContactRight type="visible right" />
+          </div>
         </div>
         <Nav
           className="nav-right"
