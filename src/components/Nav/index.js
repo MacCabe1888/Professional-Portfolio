@@ -23,7 +23,7 @@ class Nav extends Component {
     if (pageName !== this.pageName && !this.state.animating) {
       const activateTabs = this.props.className === "nav-left"
       ? () => {
-          document.getElementsByClassName("left-side")[0].classList.add("active");
+          document.getElementById(`${this.pageName}-left`).parentElement.classList.add("active");
           document.getElementById(`${pageName}-right`).classList.replace("hidden", "flipped");
           document.getElementById(`${pageName}-left`).classList.replace("hidden", "unveiled");
           const tabs = document.getElementsByClassName("nav-tab left");
@@ -34,7 +34,7 @@ class Nav extends Component {
           }
         }
       : () => {
-          document.getElementsByClassName("right-side")[0].classList.add("active");
+          document.getElementById(`${this.pageName}-right`).parentElement.classList.add("active");
           document.getElementById(`${pageName}-left`).classList.replace("hidden", "flipped");
           document.getElementById(`${pageName}-right`).classList.replace("hidden", "unveiled");
           const tabs = document.getElementsByClassName("nav-tab right");
