@@ -22,7 +22,6 @@ div.left-side, div.right-side {
   width: calc(50% - 20px);
   margin-left: 10px;
   margin-right: 10px;
-  position: relative;
   transition: all 1s ease-in-out;
   transform-style: preserve-3d;
 }
