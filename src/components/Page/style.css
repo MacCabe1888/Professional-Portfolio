@@ -7,33 +7,25 @@ div.page {
   padding: 10px;
   border: 1px black solid;
   position: absolute;
-  backface-visibility: hidden;
+  background-color: #ffffff;
 }
 
-.left-side > div.page.flipped {
-  transform: rotateY(-180deg);
-}
-
-.right-side > div.page.flipped {
+div.left-side.active, div.right-side > div.page.flipped {
   transform: rotateY(180deg);
+  z-index: 1;
 }
 
-.left-side > div.page.unveiled {
+div.right-side.active, div.left-side > div.page.flipped {
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+
+div.left-side > div.page.unveiled {
   margin-left: calc(100% + 20px);
-  z-index: -1;
 }
 
-.right-side > div.page.unveiled {
+div.right-side > div.page.unveiled {
   transform: translateX(calc(-100% + 2px));
-  z-index: -1;
-}
-
-.left-side.active {
-  transform: rotateY(180deg);
-}
-
-.right-side.active {
-  transform: rotateY(-180deg);
 }
 
 .nav-tab {
