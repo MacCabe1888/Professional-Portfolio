@@ -10,22 +10,34 @@ div.page {
   background-color: #ffffff;
 }
 
+div.left-side > div.page {
+  border-radius: 20px 0 0 20px;
+}
+
+div.right-side > div.page {
+  border-radius: 0 20px 20px 0;
+}
+
 div.left-side.active, div.right-side > div.page.flipped {
   transform: rotateY(180deg);
   z-index: 1;
+  border-radius: 20px 0 0 20px;
 }
 
 div.right-side.active, div.left-side > div.page.flipped {
   transform: rotateY(-180deg);
   z-index: 1;
+  border-radius: 0 20px 20px 0;
 }
 
 div.left-side > div.page.unveiled {
   margin-left: calc(100% + 20px);
+  border-radius: 0 20px 20px 0;
 }
 
 div.right-side > div.page.unveiled {
   transform: translateX(calc(-100% + 2px));
+  border-radius: 20px 0 0 20px;
 }
 
 .nav-tab {
