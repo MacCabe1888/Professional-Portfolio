@@ -1,4 +1,5 @@
 section#cam-mac {
+  border-top-left-radius: 15px;
   margin-bottom: 10px;
 }
 
@@ -12,7 +13,16 @@ h1.name {
   margin-bottom: 19.92px;
 }
 
+section#profile {
+  border-bottom-left-radius: 15px;
+}
+
 section#visit, section#download {
   width: calc(100% - 39.84px);
+  background-color: #fbf8c5e5;
   margin: 0 19.92px 19.92px 19.92px;
+}
+
+section#download {
+  border-bottom-left-radius: 10px;
 }
