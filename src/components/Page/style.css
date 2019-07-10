@@ -57,11 +57,21 @@ div.right-side > div.page.unveiled {
   transform: rotateY(180deg);
 }
 
+.nav-tab.left.active > .nav-text {
+  transition-delay: 0.5s;
+  transform: rotateY(180deg);
+}
+
 .nav-tab.right {
   transform-origin: calc(-40vw + 72px);
 }
 
 .nav-tab.right.active {
+  transform: rotateY(-180deg);
+}
+
+.nav-tab.right.active > .nav-text {
+  transition-delay: 0.5s;
   transform: rotateY(-180deg);
 }
 
