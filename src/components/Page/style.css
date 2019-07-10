@@ -7,7 +7,7 @@ div.page {
   padding: 10px;
   border: 1px black solid;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #b4e8ac;
 }
 
 div.left-side > div.page {
@@ -80,6 +80,7 @@ div.page.hidden {
 }
 
 section {
+  background-color: #f6eabd;
   border: 1px black solid;
 }
 

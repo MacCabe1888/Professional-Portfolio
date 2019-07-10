@@ -6,6 +6,7 @@
 
 div.project {
   flex-direction: column;
+  background-color: #f6eabd;
   border: 1px black solid;
   margin-top: 10px;
 }
