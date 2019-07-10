@@ -44,6 +44,11 @@ div.right-side > div.page.unveiled {
   transition: all 1s ease-in-out;
 }
 
+.nav-tab.active {
+  position: relative;
+  z-index: 1;
+}
+
 .nav-tab.left {
   transform-origin: 40vw;
 }
