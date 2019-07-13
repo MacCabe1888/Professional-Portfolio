@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9be1447396151391a1b3830019618d5",
+    "revision": "790cea1312462eea79badd197182a751",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "077dc3dcd885f1ef12da",
-    "url": "/Portfolio/static/css/main.b51beade.chunk.css"
+    "revision": "34433471549e684e3faf",
+    "url": "/Portfolio/static/css/main.9a27eab0.chunk.css"
   },
   {
-    "revision": "16c37a52fdc2bef01bca",
-    "url": "/Portfolio/static/js/2.8d984bb8.chunk.js"
+    "revision": "13d172c4cbe9f6c03458",
+    "url": "/Portfolio/static/js/2.5f9632d6.chunk.js"
   },
   {
-    "revision": "077dc3dcd885f1ef12da",
-    "url": "/Portfolio/static/js/main.80afd967.chunk.js"
+    "revision": "34433471549e684e3faf",
+    "url": "/Portfolio/static/js/main.032317ea.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
   },
   {
-    "revision": "598baca5aca474032986faf01b8894da",
-    "url": "/Portfolio/static/media/headshot-square.598baca5.jpg"
+    "revision": "c9e63a3dfedd15ea33098c51298cdbc3",
+    "url": "/Portfolio/static/media/headshot-square.c9e63a3d.jpg"
   },
   {
     "revision": "dd60b11e9762b6e25f6d4ce981a1eeae",
