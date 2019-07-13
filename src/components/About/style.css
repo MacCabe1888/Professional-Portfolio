@@ -10,6 +10,8 @@ h1.name {
 .bio-img {
   width: 50%;
   border-radius: 50%;
+  border: 4px #98afd1 solid;
+  box-shadow: 0 0 15px 10px #98afd1;
   margin-bottom: 19.92px;
 }
 
