@@ -13,13 +13,11 @@ class AboutLeft extends Component {
           <h1 className="name">
             Cameron MacCabe
           </h1>
-          <div className="img-container">
-            <img
-              className="bio-img"
-              src={headshot}
-              alt="Cameron MacCabe"
-            />
-          </div>
+          <img
+            className="bio-img"
+            src={headshot}
+            alt="Cameron MacCabe"
+          />
         </section>
         <section id="profile">
           <h2>
