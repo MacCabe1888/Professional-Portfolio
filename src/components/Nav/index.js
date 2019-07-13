@@ -29,7 +29,7 @@ class Nav extends Component {
           const tabs = document.getElementsByClassName("nav-tab left");
           for (let i = 0; i < tabs.length; i++) {
             if (this.pages.indexOf(tabs[i].textContent.toLowerCase()) >= this.pages.indexOf(pageName)) {
-              tabs[i].classList.add("active");
+              tabs[i].parentElement.classList.add("active");
             };
           }
         }
@@ -40,7 +40,7 @@ class Nav extends Component {
           const tabs = document.getElementsByClassName("nav-tab right");
           for (let i = 0; i < tabs.length; i++) {
             if (this.pages.indexOf(tabs[i].textContent.toLowerCase()) < this.pages.indexOf(pageName)) {
-              tabs[i].classList.add("active");
+              tabs[i].parentElement.classList.add("active");
             };
           }
         };
@@ -57,13 +57,16 @@ class Nav extends Component {
       return;
     }
     return (
-      <nav>
+      <nav className={this.props.className}>
         {this.pages.map((pageName, pageIndex) => {
           return (
             this.hasTab(pageIndex)
             ? <Link
                 key={pageIndex}
                 to={"/" + pageName}
+                className={this.props.className === "nav-left"
+                ? "left"
+                : "right"}
                 onClick={event => this.handleOnClick(event, pageName)}
               >
                 <button
