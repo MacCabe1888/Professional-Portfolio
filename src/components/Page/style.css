@@ -1,13 +1,13 @@
 div.page {
+  position: absolute;
   display: block;
-  text-align: center;
-  overflow: auto;
   width: 100%;
   height: calc(100% - 22px);
   padding: 10px;
   border: 1px black solid;
-  position: absolute;
+  overflow: auto;
   background-color: #b4e8ac;
+  text-align: center;
 }
 
 div.left-side > div.page {
@@ -40,37 +40,37 @@ div.right-side > div.page.unveiled {
   border-radius: 20px 0 0 20px;
 }
 
-.nav-tab {
-  transition: all 1s ease-in-out;
+nav > a {
+  transition: transform 1s ease-in-out;
 }
 
-.nav-tab.active {
+nav > a.active {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
-.nav-tab.left {
-  transform-origin: 40vw;
+nav > a.left {
+  transform-origin: right;
 }
 
-.nav-tab.left.active {
+nav > a.left.active {
   transform: rotateY(180deg);
 }
 
-.nav-tab.left.active > .nav-text {
+a.left.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
   transform: rotateY(180deg);
 }
 
-.nav-tab.right {
-  transform-origin: calc(-40vw + 72px);
+nav > a.right {
+  transform-origin: left;
 }
 
-.nav-tab.right.active {
+nav > a.right.active {
   transform: rotateY(-180deg);
 }
 
-.nav-tab.right.active > .nav-text {
+a.right.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
   transform: rotateY(-180deg);
 }
@@ -86,14 +86,4 @@ section {
 
 div > p {
   text-align: left;
-}
-
-@media screen and (max-width: 1200px) {
-  .nav-tab.left {
-    transform-origin: 45vw;
-  }
-
-  .nav-tab.right {
-    transform-origin: calc(-45vw + 24px);
-  }
 }
