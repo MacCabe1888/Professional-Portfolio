@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9a27eab0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.032317ea.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.032317ea.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0007f895.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a15d5bbf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a15d5bbf.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.5f9632d6.chunk.js": "/Portfolio/static/js/2.5f9632d6.chunk.js",
-    "static/js/2.5f9632d6.chunk.js.map": "/Portfolio/static/js/2.5f9632d6.chunk.js.map",
+    "static/js/2.26aec51f.chunk.js": "/Portfolio/static/js/2.26aec51f.chunk.js",
+    "static/js/2.26aec51f.chunk.js.map": "/Portfolio/static/js/2.26aec51f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4669ab1c8731f81d04dcaa023fe9ec4d.js": "/Portfolio/precache-manifest.4669ab1c8731f81d04dcaa023fe9ec4d.js",
+    "precache-manifest.f9222b8490a5e692e5acf51f30381e4a.js": "/Portfolio/precache-manifest.f9222b8490a5e692e5acf51f30381e4a.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.9a27eab0.chunk.css.map": "/Portfolio/static/css/main.9a27eab0.chunk.css.map",
+    "static/css/main.0007f895.chunk.css.map": "/Portfolio/static/css/main.0007f895.chunk.css.map",
     "static/media/Bamazon.png": "/Portfolio/static/media/Bamazon.a02188e2.png",
     "static/media/Burgers-to-Eat.png": "/Portfolio/static/media/Burgers-to-Eat.b1714a21.png",
     "static/media/Crystal-Collector-Game.jpg": "/Portfolio/static/media/Crystal-Collector-Game.ecb10812.jpg",
@@ -25,6 +25,9 @@
     "static/media/headshot-square.jpg": "/Portfolio/static/media/headshot-square.c9e63a3d.jpg",
     "static/media/js.svg": "/Portfolio/static/media/js.dd60b11e.svg",
     "static/media/App.css": "/Portfolio/static/media/koi.a78e9885.png",
-    "static/media/logo.svg": "/Portfolio/static/media/logo.0e9cbb86.svg"
+    "static/media/logo.svg": "/Portfolio/static/media/logo.0e9cbb86.svg",
+    "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.2985235d.svg",
+    "static/media/node.svg": "/Portfolio/static/media/node.89ccb090.svg",
+    "static/media/sql.svg": "/Portfolio/static/media/sql.dbf8150e.svg"
   }
 }
