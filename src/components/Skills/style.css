@@ -6,6 +6,11 @@ img.skill {
   max-height: 50px;
 }
 
+section.skill > p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 #skill-2, #skill-3, #skill-4, #skill-5 {
   margin-top: 10px;
 }
