@@ -14,3 +14,7 @@ div.project {
 div.project > a {
   justify-content: center;
 }
+
+div.project:last-child {
+  border-bottom-right-radius: 15px;
+}
