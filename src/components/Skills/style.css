@@ -1,5 +1,14 @@
 section.skill {
   padding: 10px 0 10px 0;
+  margin-top: 10px;
+}
+
+section#skill-1 {
+  margin-top: 0;
+}
+
+section.skill:last-child {
+  border-bottom-right-radius: 15px;
 }
 
 img.skill {
@@ -9,8 +18,4 @@ img.skill {
 section.skill > p {
   margin-top: 10px;
   margin-bottom: 0;
-}
-
-#skill-2, #skill-3, #skill-4, #skill-5 {
-  margin-top: 10px;
 }
