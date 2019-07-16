@@ -1,20 +1,3 @@
-.project-img {
-  min-width: calc(100% - 20px);
-  max-width: calc(100% - 20px);
-  margin-top: 10px;
-}
-
-div.project {
-  flex-direction: column;
-  background-color: #f6eabd;
-  border: 1px black solid;
-  margin-top: 10px;
-}
-
-div.project > a {
-  justify-content: center;
-}
-
 div.project:last-child {
   border-bottom-right-radius: 15px;
 }

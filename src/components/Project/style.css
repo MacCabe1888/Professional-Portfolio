@@ -1,0 +1,36 @@
+div.project {
+  flex-direction: column;
+  background-color: #f6eabd;
+  border: 1px black solid;
+  margin-top: 10px;
+}
+
+div.project > a {
+  justify-content: center;
+}
+
+.project-img {
+  min-width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  margin-top: 10px;
+}
+
+div.project > section.info {
+  margin: 10px;
+  background-color: #fbf8c5e5;
+}
+
+p.description {
+  font-size: 14px;
+}
+
+p.tech {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+img.tech {
+  max-height: 30px;
+  margin: 0 5px;
+}

@@ -2,6 +2,23 @@ import React, { Component } from "react";
 import "./style.css";
 
 class Project extends Component {
+  displayTechLogos = () => {
+    return (
+      <p className="tech">
+        {this.props.tech.map((technology, i) => {
+          return (
+            <img
+              key={i}
+              className="tech"
+              src={technology.src}
+              alt={technology.alt}
+            />
+          );
+        })}
+      </p>
+    );
+  }
+
   render() {
     return (
       <div className="project">
@@ -18,15 +35,21 @@ class Project extends Component {
             />
           </div>
         </a>
-        <a
-          href={this.props.repoURL}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>
-            {this.props.name}
-          </p>
-        </a>
+        <section className="info">
+          <a
+            href={this.props.repoURL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="name">
+              {this.props.name}
+            </p>
+            <p className="description">
+              {this.props.description}
+            </p>
+            {this.displayTechLogos()}
+          </a>
+        </section>
       </div>
     );
   }
