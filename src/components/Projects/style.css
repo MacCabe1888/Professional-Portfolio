@@ -1,3 +1,7 @@
 div.project:last-child {
   border-bottom-right-radius: 15px;
 }
+
+div.project:last-child > section.info {
+  border-bottom-right-radius: 10px;
+}
