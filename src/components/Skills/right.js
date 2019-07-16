@@ -3,7 +3,7 @@ import { Page } from "../";
 import "./style.css";
 
 import logo from "../../logo.svg";
-import node from "../../node.svg"
+import node from "../../node.svg";
 import js from "../../js.svg";
 import mongo from "../../mongodb.svg";
 import sql from "../../sql.svg";
