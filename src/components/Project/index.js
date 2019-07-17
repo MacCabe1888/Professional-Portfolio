@@ -36,19 +36,19 @@ class Project extends Component {
           </div>
         </a>
         <section className="info">
-          <a
-            href={this.props.repoURL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p className="name">
+          <p className="name">
+            <a
+              href={this.props.repoURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {this.props.name}
-            </p>
+            </a>
+          </p>
             <p className="description">
               {this.props.description}
             </p>
             {this.displayTechLogos()}
-          </a>
         </section>
       </div>
     );
