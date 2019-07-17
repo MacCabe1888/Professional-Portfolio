@@ -16,6 +16,7 @@ import trivia from "../../assets/images/Trivia-Game.png";
 import crystals from "../../assets/images/Crystal-Collector-Game.jpg";
 import wordGame from "../../assets/images/Word-Game.png";
 
+import node from "../../node.svg";
 import js from "../../js.svg";
 
 class ProjectsRight extends Component {
@@ -63,7 +64,10 @@ class ProjectsRight extends Component {
           imgSrc={bamazon}
           name="Bamazon"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: node,
+            alt: "Node.js"
+          }]}
         />
         <Project
           siteURL="https://github.com/MacCabe1888/Constructor-Word-Guess"
@@ -71,7 +75,10 @@ class ProjectsRight extends Component {
           imgSrc={wordGuess}
           name="Constructor Word Guess"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: node,
+            alt: "Node.js"
+          }]}
         />
         <Project
           siteURL="https://github.com/MacCabe1888/LIRI-Node-App"
@@ -79,7 +86,10 @@ class ProjectsRight extends Component {
           imgSrc={liri}
           name="LIRI Node App"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: node,
+            alt: "Node.js"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/Moodie/"
