@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9a9a4f50.chunk.css",
-    "main.js": "/Portfolio/static/js/main.2cc20b59.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2cc20b59.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0bcadd07.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9752ff62.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9752ff62.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.410972f5.chunk.js": "/Portfolio/static/js/2.410972f5.chunk.js",
-    "static/js/2.410972f5.chunk.js.map": "/Portfolio/static/js/2.410972f5.chunk.js.map",
+    "static/js/2.e9719934.chunk.js": "/Portfolio/static/js/2.e9719934.chunk.js",
+    "static/js/2.e9719934.chunk.js.map": "/Portfolio/static/js/2.e9719934.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.05a6d1f037dcda7e61e153f2685a83f2.js": "/Portfolio/precache-manifest.05a6d1f037dcda7e61e153f2685a83f2.js",
+    "precache-manifest.e1d198fb22bfd5216f9d71614d3e526f.js": "/Portfolio/precache-manifest.e1d198fb22bfd5216f9d71614d3e526f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.9a9a4f50.chunk.css.map": "/Portfolio/static/css/main.9a9a4f50.chunk.css.map",
+    "static/css/main.0bcadd07.chunk.css.map": "/Portfolio/static/css/main.0bcadd07.chunk.css.map",
     "static/media/Bamazon.png": "/Portfolio/static/media/Bamazon.a02188e2.png",
     "static/media/Burgers-to-Eat.png": "/Portfolio/static/media/Burgers-to-Eat.b1714a21.png",
     "static/media/Crystal-Collector-Game.jpg": "/Portfolio/static/media/Crystal-Collector-Game.ecb10812.jpg",
@@ -28,6 +28,7 @@
     "static/media/logo.svg": "/Portfolio/static/media/logo.0e9cbb86.svg",
     "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.2985235d.svg",
     "static/media/node.svg": "/Portfolio/static/media/node.89ccb090.svg",
+    "static/media/sitePlaceholder.png": "/Portfolio/static/media/sitePlaceholder.6bf3a9f7.png",
     "static/media/sql.svg": "/Portfolio/static/media/sql.dbf8150e.svg"
   }
 }
