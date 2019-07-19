@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bce96087de111590276809484757c3c7",
+    "revision": "5312f157019926d897f5b47a2df22bad",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5bcd23636280f487e6ad",
-    "url": "/Portfolio/static/css/main.0bcadd07.chunk.css"
+    "revision": "f07e2ae4edd969d76765",
+    "url": "/Portfolio/static/css/main.92245db6.chunk.css"
   },
   {
-    "revision": "4fe48418466b02be8267",
-    "url": "/Portfolio/static/js/2.e9719934.chunk.js"
+    "revision": "333415e466980645ebbb",
+    "url": "/Portfolio/static/js/2.c92dfe49.chunk.js"
   },
   {
-    "revision": "5bcd23636280f487e6ad",
-    "url": "/Portfolio/static/js/main.9752ff62.chunk.js"
+    "revision": "f07e2ae4edd969d76765",
+    "url": "/Portfolio/static/js/main.18cf51ba.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
+  },
+  {
+    "revision": "65fd47e230968ceb01b4934a9ff82c44",
+    "url": "/Portfolio/static/media/Amazon-Scraper.65fd47e2.png"
   },
   {
     "revision": "a02188e2ca2abd9f53ff6c0ded22b4ed",
@@ -32,8 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Crystal-Collector-Game.ecb10812.jpg"
   },
   {
-    "revision": "67c73d5f1eb222153dc6dae0d7b57966",
-    "url": "/Portfolio/static/media/Friend-Finder.67c73d5f.jpg"
+    "revision": "459d49ec41d9c21d2bd72d79fc57e648",
+    "url": "/Portfolio/static/media/Friend-Finder.459d49ec.png"
+  },
+  {
+    "revision": "a317e84acea6dbdd5991aabc5a67544c",
+    "url": "/Portfolio/static/media/Google-Books-Search.a317e84a.png"
   },
   {
     "revision": "2d9ed6240ae7589e1a10f3f9a2437a3e",
@@ -64,6 +72,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
   },
   {
+    "revision": "1344c7018b6ca29459bc722c6b67be1c",
+    "url": "/Portfolio/static/media/brackit.1344c701.png"
+  },
+  {
+    "revision": "f3fe09d9c3d4f83d03a840d70888cdb4",
+    "url": "/Portfolio/static/media/goophur.f3fe09d9.png"
+  },
+  {
+    "revision": "4f08cdedcf9f88d30fb79ef0a27b301b",
+    "url": "/Portfolio/static/media/handlebars.4f08cded.svg"
+  },
+  {
     "revision": "c9e63a3dfedd15ea33098c51298cdbc3",
     "url": "/Portfolio/static/media/headshot-square.c9e63a3d.jpg"
   },
@@ -76,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/koi.a78e9885.png"
   },
   {
-    "revision": "0e9cbb8651e964113aec5ae30df24ee8",
-    "url": "/Portfolio/static/media/logo.0e9cbb86.svg"
+    "revision": "d926db8af879068deecf17e43721fd84",
+    "url": "/Portfolio/static/media/logo.d926db8a.svg"
   },
   {
     "revision": "2985235df31b8742d893d5b7e80145c5",
