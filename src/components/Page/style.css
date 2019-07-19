@@ -83,7 +83,3 @@ section {
   background-color: #f6eabd;
   border: 1px black solid;
 }
-
-div > p {
-  text-align: left;
-}
