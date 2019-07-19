@@ -2,10 +2,14 @@ import React, { Component } from "react";
 import { Page, Project } from "../";
 import "./style.css";
 
+import goophur from "../../assets/images/goophur.png";
+import books from "../../assets/images/Google-Books-Search.png";
 import re from "../../assets/images/React-Recall-Rearrange.png";
+import scraper from "../../assets/images/Amazon-Scraper.png";
+import brackit from "../../assets/images/brackit.png";
 import sequelized from "../../assets/images/Sequelized-Burger.png";
 import burgers from "../../assets/images/Burgers-to-Eat.png";
-import friends from "../../assets/images/Friend-Finder.jpg";
+import friends from "../../assets/images/Friend-Finder.png";
 import bamazon from "../../assets/images/Bamazon.png";
 import wordGuess from "../../assets/images/Constructor-Word-Guess.png";
 import liri from "../../assets/images/LIRI-Node-App.png";
@@ -16,8 +20,12 @@ import trivia from "../../assets/images/Trivia-Game.png";
 import crystals from "../../assets/images/Crystal-Collector-Game.jpg";
 import wordGame from "../../assets/images/Word-Game.png";
 
+import logo from "../../logo.svg";
 import node from "../../node.svg";
 import js from "../../js.svg";
+import mongo from "../../mongodb.svg";
+import sql from "../../sql.svg";
+import handlebars from "../../handlebars.svg";
 
 class ProjectsRight extends Component {
   render() {
@@ -27,12 +35,89 @@ class ProjectsRight extends Component {
           Projects
         </h2>
         <Project
+          siteURL="https://goophur.herokuapp.com/"
+          repoURL="https://github.com/goophur/site"
+          imgSrc={goophur}
+          name="goophur"
+          description="A web app that provides the user with a GUI to facilitate the process of customizing search engine queries."
+          tech={[{
+            src: logo,
+            alt: "React"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: mongo,
+            alt: "MongoDB"
+          }]}
+        />
+        <Project
+          siteURL="https://reactbooksearch1888.herokuapp.com/"
+          repoURL="https://github.com/MacCabe1888/Google-Books-Search"
+          imgSrc={books}
+          name="Google Books Search"
+          description="A React-powered Google Books search app."
+          tech={[{
+            src: logo,
+            alt: "React"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: mongo,
+            alt: "MongoDB"
+          }]}
+        />
+        <Project
           siteURL="https://maccabe1888.github.io/React-Recall-Rearrange/"
           repoURL="https://github.com/MacCabe1888/React-Recall-Rearrange"
           imgSrc={re}
           name="React, Recall, Rearrange!"
           description=""
-          tech={[]}
+          tech={[{
+            src: logo,
+            alt: "React"
+          }]}
+        />
+        <Project
+          siteURL="https://amazonscraper1888.herokuapp.com/"
+          repoURL="https://github.com/MacCabe1888/Amazon-Scraper"
+          imgSrc={scraper}
+          name="Amazon Scraper"
+          description="A web app that scrapes Amazon pages and allows users to leave comments."
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }, {
+            src: handlebars,
+            alt: "Handlebars"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: mongo,
+            alt: "MongoDB"
+          }]}
+        />
+        <Project
+          siteURL="https://brack-it.herokuapp.com/"
+          repoURL="https://github.com/graygabrielle/brackit"
+          imgSrc={brackit}
+          name="brack[it]"
+          description="A bracket-based tool that gamifies group decision making."
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }, {
+            src: handlebars,
+            alt: "Handlebars"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: sql,
+            alt: "SQL"
+          }]}
         />
         <Project
           siteURL="https://dry-savannah-83735.herokuapp.com/"
@@ -40,7 +125,19 @@ class ProjectsRight extends Component {
           imgSrc={sequelized}
           name="Sequelized Burger"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }, {
+            src: handlebars,
+            alt: "Handlebars"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: sql,
+            alt: "SQL"
+          }]}
         />
         <Project
           siteURL="https://thawing-ocean-73628.herokuapp.com/"
@@ -48,7 +145,19 @@ class ProjectsRight extends Component {
           imgSrc={burgers}
           name="Burgers to Eat"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }, {
+            src: handlebars,
+            alt: "Handlebars"
+          }, {
+            src: node,
+            alt: "Node.js"
+          }, {
+            src: sql,
+            alt: "SQL"
+          }]}
         />
         <Project
           siteURL="https://friendfinder1888.herokuapp.com/"
@@ -56,7 +165,13 @@ class ProjectsRight extends Component {
           imgSrc={friends}
           name="Friend Finder"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }, { 
+            src: node,
+            alt: "Node.js"
+          }]}
         />
         <Project
           siteURL="https://github.com/MacCabe1888/Bamazon"
@@ -67,6 +182,9 @@ class ProjectsRight extends Component {
           tech={[{ 
             src: node,
             alt: "Node.js"
+          }, {
+            src: sql,
+            alt: "SQL"
           }]}
         />
         <Project
@@ -97,7 +215,10 @@ class ProjectsRight extends Component {
           imgSrc={moodie}
           name="Moodie"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/Train-Scheduler/"
@@ -105,7 +226,10 @@ class ProjectsRight extends Component {
           imgSrc={trains}
           name="Train Scheduler"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/SpongeMeme-SquareGIFs/"
@@ -113,7 +237,10 @@ class ProjectsRight extends Component {
           imgSrc={gifs}
           name="SpongeMeme SquareGIFs"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/Trivia-Game/"
@@ -121,7 +248,10 @@ class ProjectsRight extends Component {
           imgSrc={trivia}
           name="Mardi Gras Mania: A Trivia Game"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/Crystal-Collector-Game/"
@@ -129,7 +259,10 @@ class ProjectsRight extends Component {
           imgSrc={crystals}
           name="Crystal Collector Game"
           description=""
-          tech={[]}
+          tech={[{ 
+            src: js,
+            alt: "JavaScript"
+          }]}
         />
         <Project
           siteURL="https://maccabe1888.github.io/Word-Game/"
