@@ -4,7 +4,7 @@ import "./style.css";
 class Project extends Component {
   displayTechLogos = () => {
     return (
-      <p className="tech">
+      <div className="tech">
         {this.props.tech.map((technology, i) => {
           return (
             <img
@@ -15,7 +15,7 @@ class Project extends Component {
             />
           );
         })}
-      </p>
+      </div>
     );
   }
 
@@ -45,10 +45,10 @@ class Project extends Component {
               {this.props.name}
             </a>
           </p>
-            <p className="description">
-              {this.props.description}
-            </p>
-            {this.displayTechLogos()}
+          <p className="description">
+            {this.props.description}
+          </p>
+          {this.displayTechLogos()}
         </section>
       </div>
     );
