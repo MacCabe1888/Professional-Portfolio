@@ -24,13 +24,30 @@ p.description {
   font-size: 14px;
 }
 
-p.tech {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
+div.tech {
+  margin: 16px 0;
 }
 
 img.tech {
-  max-height: 30px;
+  max-height: 40px;
   margin: 0 5px;
+}
+
+img.tech:first-child:nth-last-child(1) {
+  max-width: calc(100% - 10px);
+}
+
+img.tech:first-child:nth-last-child(2),
+img.tech:first-child:nth-last-child(2) ~ img.tech {
+  width: calc(50% - 10px);
+}
+
+img.tech:first-child:nth-last-child(3),
+img.tech:first-child:nth-last-child(3) ~ img.tech {
+  width: calc(100%/3 - 10px);
+}
+
+img.tech:first-child:nth-last-child(4),
+img.tech:first-child:nth-last-child(4) ~ img.tech {
+  width: calc(25% - 10px);
 }
