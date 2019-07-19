@@ -9,12 +9,16 @@ class ContactRight extends Component {
         <h2>
           Get in Touch
         </h2>
-        <p>
-          EMAIL: cameronjmaccabe@gmail.com
-        </p>
-        <p>
-          PHONE: 925 899 5574
-        </p>
+        <section id="email">
+          <p>
+            EMAIL: cameronjmaccabe@gmail.com
+          </p>
+        </section>
+        <section id="phone">
+          <p>
+            PHONE: 925 899 5574
+          </p>
+        </section>
       </Page>
     );
   }
