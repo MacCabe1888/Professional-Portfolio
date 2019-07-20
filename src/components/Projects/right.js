@@ -73,7 +73,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/React-Recall-Rearrange"
           imgSrc={re}
           name="React, Recall, Rearrange!"
-          description=""
+          description="A React-powered memory game."
           tech={[{
             src: logo,
             alt: "React"
@@ -124,7 +124,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Sequelized-Burger"
           imgSrc={sequelized}
           name="Sequelized Burger"
-          description=""
+          description="A burger logger created with Sequelize, MySQL, Node.js, Express, and Handlebars."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -144,7 +144,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Burgers-to-Eat"
           imgSrc={burgers}
           name="Burgers to Eat"
-          description=""
+          description="A burger logger created with MySQL, Node.js, Express, and Handlebars."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -164,7 +164,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Friend-Finder"
           imgSrc={friends}
           name="Friend Finder"
-          description=""
+          description="A matchmaking site powered by Node.js and Express."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -178,7 +178,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Bamazon"
           imgSrc={bamazon}
           name="Bamazon"
-          description=""
+          description="An Amazon-like storefront, in the form of a CLI app. Powered by Node.js and MySQL."
           tech={[{ 
             src: node,
             alt: "Node.js"
@@ -192,7 +192,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Constructor-Word-Guess"
           imgSrc={wordGuess}
           name="Constructor Word Guess"
-          description=""
+          description="A command-line interface word guess game. Built with constructor functions."
           tech={[{ 
             src: node,
             alt: "Node.js"
@@ -203,7 +203,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/LIRI-Node-App"
           imgSrc={liri}
           name="LIRI Node App"
-          description=""
+          description="A Language Interpretation and Recognition Interface. Powered by Node.js."
           tech={[{ 
             src: node,
             alt: "Node.js"
@@ -214,7 +214,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Moodie"
           imgSrc={moodie}
           name="Moodie"
-          description=""
+          description="An app that generates a movie recommendation based on user data."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -225,7 +225,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Train-Scheduler"
           imgSrc={trains}
           name="Train Scheduler"
-          description=""
+          description="A train schedule app that incorporates Firebase and Moment.js."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -236,7 +236,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/SpongeMeme-SquareGIFs"
           imgSrc={gifs}
           name="SpongeMeme SquareGIFs"
-          description=""
+          description="An interactive, customizable, SpongeBob-themed(-memed) GIF page. Makes use of the GIPHY API."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -247,7 +247,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Trivia-Game"
           imgSrc={trivia}
           name="Mardi Gras Mania: A Trivia Game"
-          description=""
+          description="A trivia game powered by JavaScript and jQuery."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -258,7 +258,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Crystal-Collector-Game"
           imgSrc={crystals}
           name="Crystal Collector Game"
-          description=""
+          description="A math game powered by JavaScript and jQuery."
           tech={[{ 
             src: js,
             alt: "JavaScript"
@@ -269,7 +269,7 @@ class ProjectsRight extends Component {
           repoURL="https://github.com/MacCabe1888/Word-Game"
           imgSrc={wordGame}
           name="Word Game"
-          description="Hangman-style game with modular, user-selected word banks, posters, and music."
+          description="A hangman-style game with modular, user-selected themes including word banks, posters, and music."
           tech={[{ 
             src: js,
             alt: "JavaScript"
