@@ -6,7 +6,17 @@ class ContactLeft extends Component {
   render() {
     return (
       <Page type={this.props.type} id="contact-left">
-        [LEFT PAGE OF CONTACT]
+        <h2>
+          Email
+        </h2>
+        <section id="email">
+          <p>
+            <a href="mailto:cameronjmaccabe@gmail.com">
+              <i class="fas fa-envelope" />
+              &nbsp; cameronjmaccabe@gmail.com
+            </a>
+          </p>
+        </section>
       </Page>
     );
   }
