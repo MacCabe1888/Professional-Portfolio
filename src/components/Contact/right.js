@@ -7,16 +7,14 @@ class ContactRight extends Component {
     return (
       <Page type={this.props.type} id="contact-right">
         <h2>
-          Get in Touch
+          Phone
         </h2>
-        <section id="email">
-          <p>
-            EMAIL: cameronjmaccabe@gmail.com
-          </p>
-        </section>
         <section id="phone">
           <p>
-            PHONE: 925 899 5574
+            <a href="tel:1-925-899-5574">
+              <i class="fas fa-phone-alt" />
+              &nbsp; 925 899 5574
+            </a>
           </p>
         </section>
       </Page>
