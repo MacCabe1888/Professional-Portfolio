@@ -3,11 +3,11 @@ section.skill {
   margin-top: 10px;
 }
 
-section#skill-1 {
-  margin-top: 0;
+div#skills-left > section.skill:last-child {
+  border-bottom-left-radius: 15px;
 }
 
-section.skill:last-child {
+div#skills-right > section.skill:last-child {
   border-bottom-right-radius: 15px;
 }
 
