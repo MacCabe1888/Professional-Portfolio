@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8d700fabcbf59bf6be76479d97ff68b",
+    "revision": "5d2c1f64ce8e9f77a5c102bfd44e7eb0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "debae454e2e2e0a00c67",
-    "url": "/Portfolio/static/css/main.92245db6.chunk.css"
+    "revision": "3c3cd8df8e76d5534455",
+    "url": "/Portfolio/static/css/main.3ff3f540.chunk.css"
   },
   {
-    "revision": "333415e466980645ebbb",
-    "url": "/Portfolio/static/js/2.c92dfe49.chunk.js"
+    "revision": "5c744b61e05c4719a5e5",
+    "url": "/Portfolio/static/js/2.b9b039f0.chunk.js"
   },
   {
-    "revision": "debae454e2e2e0a00c67",
-    "url": "/Portfolio/static/js/main.1c9631b9.chunk.js"
+    "revision": "3c3cd8df8e76d5534455",
+    "url": "/Portfolio/static/js/main.c7d993ce.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -72,8 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
   },
   {
+    "revision": "06596577ae4143d9d51e2184310e23dd",
+    "url": "/Portfolio/static/media/bootstrap.06596577.svg"
+  },
+  {
     "revision": "1344c7018b6ca29459bc722c6b67be1c",
     "url": "/Portfolio/static/media/brackit.1344c701.png"
+  },
+  {
+    "revision": "7cfa5ce212d442bc119c86bdce41185a",
+    "url": "/Portfolio/static/media/css.7cfa5ce2.svg"
+  },
+  {
+    "revision": "c6bab64b183f96aa47077fd3db37afd0",
+    "url": "/Portfolio/static/media/express.c6bab64b.svg"
   },
   {
     "revision": "f3fe09d9c3d4f83d03a840d70888cdb4",
@@ -86,6 +98,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9e63a3dfedd15ea33098c51298cdbc3",
     "url": "/Portfolio/static/media/headshot-square.c9e63a3d.jpg"
+  },
+  {
+    "revision": "519cd2f569566082467733d092a741e7",
+    "url": "/Portfolio/static/media/html.519cd2f5.svg"
+  },
+  {
+    "revision": "8ec9bacf8bc78b8ad161b5e9a2a16e87",
+    "url": "/Portfolio/static/media/jquery.8ec9bacf.svg"
   },
   {
     "revision": "dd60b11e9762b6e25f6d4ce981a1eeae",
@@ -104,8 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/mongodb.2985235d.svg"
   },
   {
+    "revision": "e8460edf53b44c20bfdb8c16bedf2e59",
+    "url": "/Portfolio/static/media/mysql.e8460edf.svg"
+  },
+  {
     "revision": "89ccb09060a7adf788ea2340c54d6d78",
     "url": "/Portfolio/static/media/node.89ccb090.svg"
+  },
+  {
+    "revision": "43c9d125de48e59cb29a88dd1b20bc46",
+    "url": "/Portfolio/static/media/sequelize.43c9d125.svg"
   },
   {
     "revision": "6bf3a9f70dec0bb035ea3ef14a9e4fcc",
