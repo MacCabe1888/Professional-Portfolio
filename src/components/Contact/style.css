@@ -1,6 +1,6 @@
 section#email {
   padding: 0 16px;
-  margin-bottom: 10px;
+  border-bottom-left-radius: 15px;
   font-size: 1.5vw;
 }
 
