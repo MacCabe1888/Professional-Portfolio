@@ -12,7 +12,7 @@ class ContactLeft extends Component {
         <section id="email">
           <p>
             <a href="mailto:cameronjmaccabe@gmail.com">
-              <i class="fas fa-envelope" />
+              <i className="fas fa-envelope" />
               &nbsp; cameronjmaccabe@gmail.com
             </a>
           </p>

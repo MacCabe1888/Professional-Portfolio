@@ -12,7 +12,7 @@ class ContactRight extends Component {
         <section id="phone">
           <p>
             <a href="tel:1-925-899-5574">
-              <i class="fas fa-phone-alt" />
+              <i className="fas fa-phone-alt" />
               &nbsp; 925 899 5574
             </a>
           </p>
