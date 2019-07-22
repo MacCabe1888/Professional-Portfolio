@@ -20,6 +20,7 @@ class Nav extends Component {
 
   handleOnClick = (event, pageName) => {
     event.preventDefault();
+    document.getElementById(pageName).classList.add("current");
     if (pageName !== this.pageName && !this.state.animating) {
       const activateTabs = this.props.className === "nav-left"
       ? () => {
@@ -34,6 +35,7 @@ class Nav extends Component {
           }
         }
       : () => {
+          document.getElementById(this.pageName).classList.add("flipped");
           document.getElementById(`${this.pageName}-right`).parentElement.classList.add("active");
           document.getElementById(`${pageName}-left`).classList.replace("hidden", "flipped");
           document.getElementById(`${pageName}-right`).classList.replace("hidden", "unveiled");
@@ -72,7 +74,10 @@ class Nav extends Component {
                 <button
                   className={`nav-tab ${this.props.className === "nav-left"
                   ? "left"
-                  : "right"}`}
+                  : "right"} ${pageName === this.pageName
+                  ? "current"
+                  : ""}`}
+                  id={pageName}
                 >
                   <p className="nav-text">
                     {pageName.toUpperCase()}

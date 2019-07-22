@@ -29,8 +29,40 @@ nav > a, .tab-space {
   flex-direction: row;
   justify-content: center;
   width: 24px;
+  border: 1px black solid;
   overflow: hidden;
   pointer-events: all;
+  background-color: #b4e8ac;
+}
+
+.nav-tab.left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.nav-tab.right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.nav-tab.left.current {
+  transition-delay: 0.5s;
+  transition-property: border-right;
+  border-right: 1px #b4e8ac solid;
+}
+
+.nav-tab.right.current {
+  border-left: 1px #b4e8ac solid;
+}
+
+.nav-tab.right.flipped {
+  transition-delay: 0.5s;
+  transition-property: border-left;
+  border-left: 1px black solid;
+}
+
+.nav-tab:focus {
+  outline: none;
 }
 
 .nav-text {
