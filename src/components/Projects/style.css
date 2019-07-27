@@ -1,15 +1,7 @@
-div#projects-left > div.project:last-child {
-  border-bottom-left-radius: 15px;
+div.project {
+  border-radius: 15px;
 }
 
-div#projects-left > div.project:last-child > section.info {
-  border-bottom-left-radius: 10px;
-}
-
-div#projects-right > div.project:last-child {
-  border-bottom-right-radius: 15px;
-}
-
-div#projects-right > div.project:last-child > section.info {
-  border-bottom-right-radius: 10px;
+div.project > section.info {
+  border-radius: 10px;
 }

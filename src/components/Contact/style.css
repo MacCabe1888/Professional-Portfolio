@@ -1,11 +1,5 @@
-section#email {
+section#email, section#phone {
   padding: 0 16px;
-  border-bottom-left-radius: 15px;
-  font-size: 1.5vw;
-}
-
-section#phone {
-  padding: 0 16px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   font-size: 1.5vw;
 }
