@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { Page } from "../";
 import "./style.css";
 
-import node from "../../node.svg";
-import express from "../../express.svg";
-import mongo from "../../mongodb.svg";
-import mysql from "../../mysql.svg";
-import sequelize from "../../sequelize.svg";
-import handlebars from "../../handlebars.svg";
+import nodejs from "../../assets/svg/nodejs.svg";
+import express from "../../assets/svg/express.svg";
+import mongo from "../../assets/svg/mongodb.svg";
+import mysql from "../../assets/svg/mysql.svg";
+import sequelize from "../../assets/svg/sequelize.svg";
+import handlebars from "../../assets/svg/handlebars.svg";
 
 class SkillsRight extends Component {
   render() {
@@ -17,7 +17,7 @@ class SkillsRight extends Component {
           Additional Skills
         </h2>
         <section className="skill">
-          <img className="skill" src={node} alt="Node.js Logo" />
+          <img className="skill" src={nodejs} alt="Node.js Logo" />
           <p>Node.js</p>
         </section>
         <section className="skill">

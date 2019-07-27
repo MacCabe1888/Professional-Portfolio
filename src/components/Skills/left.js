@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Page } from "../";
 import "./style.css";
 
-import logo from "../../logo.svg";
-import jquery from "../../jquery.svg";
-import bootstrap from "../../bootstrap.svg";
-import sql from "../../sql.svg";
-import js from "../../js.svg";
-import css from "../../css.svg";
-import html from "../../html.svg";
+import react from "../../assets/svg/react.svg";
+import jquery from "../../assets/svg/jquery.svg";
+import bootstrap from "../../assets/svg/bootstrap.svg";
+import sql from "../../assets/svg/sql.svg";
+import js from "../../assets/svg/js.svg";
+import css3 from "../../assets/svg/css3.svg";
+import html5 from "../../assets/svg/html5.svg";
 
 class SkillsLeft extends Component {
   render() {
@@ -18,7 +18,7 @@ class SkillsLeft extends Component {
           Languages and Libraries
         </h2>
         <section className="skill">
-          <img className="skill" src={logo} alt="React Logo" />
+          <img className="skill" src={react} alt="React Logo" />
           <p>React</p>
         </section>
         <section className="skill">
@@ -38,11 +38,11 @@ class SkillsLeft extends Component {
           <p>JavaScript</p>
         </section>
         <section className="skill">
-          <img className="skill" src={css} alt="CSS3 Logo" />
+          <img className="skill" src={css3} alt="CSS3 Logo" />
           <p>CSS3</p>
         </section>
         <section className="skill">
-          <img className="skill" src={html} alt="HTML5 Logo" />
+          <img className="skill" src={html5} alt="HTML5 Logo" />
           <p>HTML5</p>
         </section>
       </Page>
