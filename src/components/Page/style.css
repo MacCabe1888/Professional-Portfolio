@@ -44,41 +44,6 @@ a {
   text-decoration: none;
 }
 
-nav > a {
-  transition: transform 1s ease-in-out;
-}
-
-nav > a.active {
-  position: relative;
-  z-index: 2;
-}
-
-nav > a.left {
-  transform-origin: right;
-}
-
-nav > a.left.active {
-  transform: rotateY(180deg);
-}
-
-a.left.active > .nav-tab > .nav-text {
-  transition-delay: 0.5s;
-  transform: rotateY(180deg);
-}
-
-nav > a.right {
-  transform-origin: left;
-}
-
-nav > a.right.active {
-  transform: rotateY(-180deg);
-}
-
-a.right.active > .nav-tab > .nav-text {
-  transition-delay: 0.5s;
-  transform: rotateY(-180deg);
-}
-
 div.page.hidden {
   display: none;
 }
@@ -96,7 +61,7 @@ section {
   background-color: #b4e8ac;
   box-shadow: inset 0 0 5px -2px grey; 
   border-radius: 15px;
-  margin: 15px;
+  margin: 12px;
 }
 
 ::-webkit-scrollbar-thumb {

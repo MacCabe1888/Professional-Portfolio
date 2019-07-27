@@ -18,10 +18,42 @@ nav > a, .tab-space {
   display: flex;
   height: calc(13.75vw - 10px);
   max-height: calc(22vh - 10px);
+  transition: transform 1s ease-in-out;
 }
 
 .nav-right > a, .nav-right > .tab-space {
   flex-direction: row-reverse;
+}
+
+nav > a.active {
+  position: relative;
+  z-index: 2;
+}
+
+nav > a.left {
+  transform-origin: right;
+}
+
+nav > a.left.active {
+  transform: rotateY(180deg);
+}
+
+a.left.active > .nav-tab > .nav-text {
+  transition-delay: 0.5s;
+  transform: rotateY(180deg);
+}
+
+nav > a.right {
+  transform-origin: left;
+}
+
+nav > a.right.active {
+  transform: rotateY(-180deg);
+}
+
+a.right.active > .nav-tab > .nav-text {
+  transition-delay: 0.5s;
+  transform: rotateY(-180deg);
 }
 
 .nav-tab {
