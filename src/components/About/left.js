@@ -29,7 +29,7 @@ class AboutLeft extends Component {
             </h3>
             <p>
               <a
-                href="https://www.linkedin.com/in/cameron-maccabe-5a47b917a/"
+                href="https://www.linkedin.com/in/cameronmaccabe/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
