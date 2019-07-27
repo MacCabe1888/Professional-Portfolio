@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ca670c7921dfb580e4d45b9e453cb50",
+    "revision": "057038e24a346b669ae188a90078147a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "1ba948f67e12fd50c921",
-    "url": "/Portfolio/static/css/main.9df73b4b.chunk.css"
+    "revision": "01c32a2bef8e90de01e0",
+    "url": "/Portfolio/static/css/main.cf5b576d.chunk.css"
   },
   {
-    "revision": "5b99d9d0c8ffa66cbdb0",
-    "url": "/Portfolio/static/js/2.0bd03891.chunk.js"
+    "revision": "910d667616df3feb4300",
+    "url": "/Portfolio/static/js/2.37d22459.chunk.js"
   },
   {
-    "revision": "1ba948f67e12fd50c921",
-    "url": "/Portfolio/static/js/main.aa058160.chunk.js"
+    "revision": "01c32a2bef8e90de01e0",
+    "url": "/Portfolio/static/js/main.99d82a73.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -72,64 +72,76 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
   },
   {
-    "revision": "06596577ae4143d9d51e2184310e23dd",
-    "url": "/Portfolio/static/media/bootstrap.06596577.svg"
+    "revision": "3e1156a8201197b8e1db5b469f4dcdd7",
+    "url": "/Portfolio/static/media/bootstrap.3e1156a8.svg"
   },
   {
     "revision": "1344c7018b6ca29459bc722c6b67be1c",
     "url": "/Portfolio/static/media/brackit.1344c701.png"
   },
   {
-    "revision": "7cfa5ce212d442bc119c86bdce41185a",
-    "url": "/Portfolio/static/media/css.7cfa5ce2.svg"
+    "revision": "61db4838732d32b0cbeaf2312f2a23a0",
+    "url": "/Portfolio/static/media/css3.61db4838.svg"
   },
   {
-    "revision": "c6bab64b183f96aa47077fd3db37afd0",
-    "url": "/Portfolio/static/media/express.c6bab64b.svg"
+    "revision": "8af27d5a30e07f59fe2c6d63c5c5f598",
+    "url": "/Portfolio/static/media/express.8af27d5a.svg"
+  },
+  {
+    "revision": "439d86585469926c73ad4e833b000a0e",
+    "url": "/Portfolio/static/media/faceplusplus.439d8658.svg"
+  },
+  {
+    "revision": "7f8d489c1887554fcf61932505d46393",
+    "url": "/Portfolio/static/media/firebase.7f8d489c.svg"
   },
   {
     "revision": "f3fe09d9c3d4f83d03a840d70888cdb4",
     "url": "/Portfolio/static/media/goophur.f3fe09d9.png"
   },
   {
-    "revision": "4f08cdedcf9f88d30fb79ef0a27b301b",
-    "url": "/Portfolio/static/media/handlebars.4f08cded.svg"
+    "revision": "0cc9c48773de3fde380b3cdb59b712bb",
+    "url": "/Portfolio/static/media/handlebars.0cc9c487.svg"
   },
   {
     "revision": "c9e63a3dfedd15ea33098c51298cdbc3",
     "url": "/Portfolio/static/media/headshot-square.c9e63a3d.jpg"
   },
   {
-    "revision": "519cd2f569566082467733d092a741e7",
-    "url": "/Portfolio/static/media/html.519cd2f5.svg"
+    "revision": "b24a969fa4ba1ef5561f2b990e14c147",
+    "url": "/Portfolio/static/media/html5.b24a969f.svg"
   },
   {
-    "revision": "8ec9bacf8bc78b8ad161b5e9a2a16e87",
-    "url": "/Portfolio/static/media/jquery.8ec9bacf.svg"
+    "revision": "832bad78ed2029123ab16f6a68dd08de",
+    "url": "/Portfolio/static/media/jquery.832bad78.svg"
   },
   {
-    "revision": "dd60b11e9762b6e25f6d4ce981a1eeae",
-    "url": "/Portfolio/static/media/js.dd60b11e.svg"
+    "revision": "407ac62217f0fd837d1ad2b7256d452e",
+    "url": "/Portfolio/static/media/js.407ac622.svg"
   },
   {
     "revision": "a78e9885853d1dd517dda806d4b33aca",
     "url": "/Portfolio/static/media/koi.a78e9885.png"
   },
   {
-    "revision": "d926db8af879068deecf17e43721fd84",
-    "url": "/Portfolio/static/media/logo.d926db8a.svg"
+    "revision": "b707220e4ed3311c082852ec8e8a881b",
+    "url": "/Portfolio/static/media/momentjs.b707220e.svg"
   },
   {
-    "revision": "2985235df31b8742d893d5b7e80145c5",
-    "url": "/Portfolio/static/media/mongodb.2985235d.svg"
+    "revision": "5b61dac7f7de9635b5dc362bebbe16db",
+    "url": "/Portfolio/static/media/mongodb.5b61dac7.svg"
   },
   {
     "revision": "e8460edf53b44c20bfdb8c16bedf2e59",
     "url": "/Portfolio/static/media/mysql.e8460edf.svg"
   },
   {
-    "revision": "89ccb09060a7adf788ea2340c54d6d78",
-    "url": "/Portfolio/static/media/node.89ccb090.svg"
+    "revision": "6874cffad36798fdbf7698a14015af53",
+    "url": "/Portfolio/static/media/nodejs.6874cffa.svg"
+  },
+  {
+    "revision": "f098b7a67b7fe24ecb5169d3af48e351",
+    "url": "/Portfolio/static/media/react.f098b7a6.svg"
   },
   {
     "revision": "43c9d125de48e59cb29a88dd1b20bc46",
@@ -138,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6bf3a9f70dec0bb035ea3ef14a9e4fcc",
     "url": "/Portfolio/static/media/sitePlaceholder.6bf3a9f7.png"
+  },
+  {
+    "revision": "18c86649c363a1f450b6a3a91e2c3f88",
+    "url": "/Portfolio/static/media/socketio.18c86649.svg"
   },
   {
     "revision": "dbf8150ecc5c588f1b49f13022d6b37b",
