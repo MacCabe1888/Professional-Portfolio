@@ -21,6 +21,10 @@ div.project > section.info {
   background-color: #fbf8c5e5;
 }
 
+p.name {
+  margin: 16px 8px;
+}
+
 p.name > a {
   font-weight: bold;
   color: black;
