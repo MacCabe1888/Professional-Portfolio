@@ -16,7 +16,7 @@ div.container {
 
 div.content {
   width: 100%;
-  perspective: 2000px;
+  perspective: 200vw;
 }
 
 div.pages {
