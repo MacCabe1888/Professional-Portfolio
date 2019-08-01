@@ -4,7 +4,7 @@ div.page {
   width: 100%;
   height: calc(100% - 22px);
   padding: 10px;
-  border: 1px black solid;
+  border: 1px #a6d69f solid;
   overflow: auto;
   background-color: #b4e8ac;
   text-align: center;
@@ -16,6 +16,7 @@ div.left-side > div.page {
 
 div.right-side > div.page {
   border-radius: 0 20px 20px 0;
+  margin-left: 2px;
 }
 
 div.left-side.active, div.right-side > div.page.flipped {
@@ -31,7 +32,7 @@ div.right-side.active, div.left-side > div.page.flipped {
 }
 
 div.left-side > div.page.unveiled {
-  margin-left: calc(100% + 20px);
+  margin-left: calc(100% + 22px);
   border-radius: 0 20px 20px 0;
 }
 
