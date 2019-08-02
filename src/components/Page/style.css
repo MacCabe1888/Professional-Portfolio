@@ -12,17 +12,22 @@ div.page {
 
 div.left-side > div.page {
   border-radius: 20px 0 0 20px;
+  padding-right: 8.5px;
 }
 
 div.right-side > div.page {
   border-radius: 0 20px 20px 0;
-  margin-left: 2px;
+  padding-left: 8.5px;
 }
 
 div.left-side.active, div.right-side > div.page.flipped {
   transform: rotateY(180deg);
   z-index: 1;
   border-radius: 20px 0 0 20px;
+}
+
+div.right-side > div.page.flipped {
+  margin-left: 0px;
 }
 
 div.right-side.active, div.left-side > div.page.flipped {
@@ -32,13 +37,18 @@ div.right-side.active, div.left-side > div.page.flipped {
 }
 
 div.left-side > div.page.unveiled {
-  margin-left: calc(100% + 22px);
+  margin-left: calc(100% + 20px);
   border-radius: 0 20px 20px 0;
+  padding-left: 8.5px;
+  padding-right: 10px;
 }
 
 div.right-side > div.page.unveiled {
-  transform: translateX(calc(-100% + 2px));
+  transform: translateX(calc(-100% + 0.5px));
   border-radius: 20px 0 0 20px;
+  padding-left: 10px;
+  padding-right: 8.5px;
+  margin-left: 0px;
 }
 
 a {
