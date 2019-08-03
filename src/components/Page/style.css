@@ -27,7 +27,10 @@ div.left-side.active, div.right-side > div.page.flipped {
 }
 
 div.right-side > div.page.flipped {
-  margin-left: 0px;
+  padding-top: 9px;
+  padding-left: 11px;
+  padding-right: 9px;
+  margin-left: -0.5px;
 }
 
 div.right-side.active, div.left-side > div.page.flipped {
@@ -36,11 +39,18 @@ div.right-side.active, div.left-side > div.page.flipped {
   border-radius: 0 20px 20px 0;
 }
 
+div.left-side > div.page.flipped {
+  padding-top: 9px;
+  padding-left: 9px;
+  padding-right: 11px;
+  margin-left: -0.5px;
+}
+
 div.left-side > div.page.unveiled {
-  margin-left: calc(100% + 20px);
   border-radius: 0 20px 20px 0;
   padding-left: 8.5px;
   padding-right: 10px;
+  margin-left: calc(100% + 20px);
 }
 
 div.right-side > div.page.unveiled {
