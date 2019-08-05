@@ -60,7 +60,7 @@ a.right.active > .nav-tab > .nav-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 24px;
+  width: 25px;
   border: 1px #a6d69f solid;
   overflow: hidden;
   pointer-events: all;
