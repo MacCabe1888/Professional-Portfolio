@@ -40,7 +40,7 @@ nav > a.left.active {
 
 a.left.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
-  transform: rotateY(180deg);
+  transform: translateX(-0.5px) rotateY(180deg);
 }
 
 nav > a.right {
@@ -49,6 +49,7 @@ nav > a.right {
 
 nav > a.right.active {
   transform: rotateY(-180deg);
+  margin-right: 0.5px;
 }
 
 a.right.active > .nav-tab > .nav-text {
@@ -88,7 +89,6 @@ a.right.active > .nav-tab > .nav-text {
 }
 
 .nav-tab.right.flipped {
-  margin-bottom: 0.5px;
   transition-delay: 0.5s;
   transition-property: border-left;
   border-left: 1px #a6d69f solid;
