@@ -1,7 +1,7 @@
 div.project {
   flex-direction: column;
   background-color: #f6eabd;
-  border: 1px black solid;
+  border: 1px #f6eabd solid;
   margin-top: 10px;
 }
 
@@ -13,7 +13,7 @@ div.project > a {
 .project-img {
   width: 100%;
   border-radius: 10px;
-  border: 1px black solid;
+  border: 1px #f6eabd solid;
 }
 
 div.project > section.info {
@@ -42,8 +42,8 @@ div.tech {
 img.tech {
   max-height: 40px;
   padding: 4px;
-  border-radius: 10px;
-  border: 1px black solid;
+  border-radius: 5px;
+  border: 1px #f6eabd solid;
   margin: 0 5px;
 }
 

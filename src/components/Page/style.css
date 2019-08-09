@@ -27,7 +27,6 @@ div.left-side.active, div.right-side > div.page.flipped {
 }
 
 div.right-side > div.page.flipped {
-  padding-top: 9px;
   padding-left: 10px;
   padding-right: 8.5px;
 }
@@ -39,7 +38,6 @@ div.right-side.active, div.left-side > div.page.flipped {
 }
 
 div.left-side > div.page.flipped {
-  padding-top: 9px;
   padding-left: 8.5px;
   padding-right: 10px;
 }
@@ -69,7 +67,7 @@ div.page.hidden {
 
 section {
   background-color: #f6eabd;
-  border: 1px black solid;
+  border: 1px #f6eabd solid;
 }
 
 ::-webkit-scrollbar {
