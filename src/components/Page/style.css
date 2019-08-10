@@ -12,12 +12,12 @@ div.page {
 
 div.left-side > div.page {
   border-radius: 20px 0 0 20px;
-  padding-right: 8.5px;
+  padding-right: 9px;
 }
 
 div.right-side > div.page {
   border-radius: 0 20px 20px 0;
-  padding-left: 8.5px;
+  padding-left: 9px;
 }
 
 div.left-side.active, div.right-side > div.page.flipped {
