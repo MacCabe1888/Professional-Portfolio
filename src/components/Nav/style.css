@@ -41,7 +41,6 @@ nav > a.left.active {
 a.left.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
   transform: rotateY(180deg);
-  margin-top: -1.5px;
 }
 
 nav > a.right {
@@ -55,7 +54,6 @@ nav > a.right.active {
 a.right.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
   transform: rotateY(-180deg);
-  margin-top: -1.5px;
 }
 
 .nav-tab {
@@ -100,7 +98,7 @@ a.right.active > .nav-tab > .nav-text {
 }
 
 .nav-text {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: upright;
   text-align: center;
   line-height: 12px;
