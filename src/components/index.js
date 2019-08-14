@@ -1,6 +1,7 @@
 import About from "./About/index";
 import AboutLeft from "./About/left";
 import AboutRight from "./About/right";
+import Bubbles from "./Bubbles/index";
 import Contact from "./Contact/index";
 import ContactLeft from "./Contact/left";
 import ContactRight from "./Contact/right";
@@ -20,6 +21,7 @@ export {
   About,
   AboutLeft,
   AboutRight,
+  Bubbles,
   Contact,
   ContactLeft,
   ContactRight,

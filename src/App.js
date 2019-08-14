@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import { Dossier } from "./components";
+import { Bubbles, Dossier } from "./components";
 
 function App() {
   return (
-    <Dossier />
+    <>
+      <Dossier />
+      <Bubbles />
+    </>
   );
 }
 
