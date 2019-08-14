@@ -28,8 +28,7 @@ div.left-side.active {
 
 div.right-side > div.page.flipped {
   transform: translateX(-1px) rotateY(180deg);
-  padding-left: 10px;
-  padding-right: 9px;
+  padding: 10px 9px 10px 8px;
   z-index: 1;
   border-radius: 20px 0 0 20px;
 }
@@ -55,7 +54,7 @@ div.left-side > div.page.unveiled {
 div.right-side > div.page.unveiled {
   transform: translateX(calc(-100% + 1px));
   border-radius: 20px 0 0 20px;
-  padding-left: 10px;
+  padding-left: 9.5px;
   padding-right: 9px;
   margin-left: 0px;
 }
