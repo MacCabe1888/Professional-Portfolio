@@ -7,11 +7,11 @@ nav {
 }
 
 .nav-left {
-  left: 0;
+  left: -1px;
 }
 
 .nav-right {
-  right: 0;
+  right: 1px;
 }
 
 nav > a, .tab-space {
