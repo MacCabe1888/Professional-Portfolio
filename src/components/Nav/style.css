@@ -7,11 +7,11 @@ nav {
 }
 
 .nav-left {
-  left: -1px;
+  left: 0;
 }
 
 .nav-right {
-  right: 1px;
+  right: 0;
 }
 
 nav > a, .tab-space {
@@ -40,7 +40,7 @@ nav > a.left.active {
 
 a.left.active > .nav-tab > .nav-text {
   transition-delay: 0.5s;
-  transform: rotateY(180deg);
+  transform: translateX(-0.5px) rotateY(180deg);
 }
 
 nav > a.right {
