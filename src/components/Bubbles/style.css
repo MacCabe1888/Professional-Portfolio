@@ -22,13 +22,15 @@ ul.bubbles > li {
 .bubbles > li:nth-child(1) {
   width: 40px;
   height: 40px;
-  left: 9%;
+  left: 2%;
+  animation-delay: 5s;
+  animation-duration: 10s;
 }
 
 .bubbles > li:nth-child(2) {
   width: 60px;
   height: 60px;
-  left: 18%;
+  left: 11%;
   animation-delay: 2s;
   animation-duration: 7s;
 }
@@ -36,7 +38,7 @@ ul.bubbles > li {
 .bubbles > li:nth-child(3) {
   width: 40px;
   height: 40px;
-  left: 27%;
+  left: 20%;
   animation-delay: 4s;
   animation-duration: 13s;
 }
@@ -44,7 +46,7 @@ ul.bubbles > li {
 .bubbles > li:nth-child(4) {
   width: 80px;
   height: 80px;
-  left: 36%;
+  left: 29%;
   animation-delay: 1s;
   animation-duration: 12s;
 }
@@ -52,7 +54,7 @@ ul.bubbles > li {
 .bubbles > li:nth-child(5) {
   width: 50px;
   height: 50px;
-  left: 45%;
+  left: 38%;
   animation-delay: 7s;
   animation-duration: 12s;
 }
@@ -60,7 +62,7 @@ ul.bubbles > li {
 .bubbles > li:nth-child(6) {
   width: 60px;
   height: 60px;
-  left: 54%;
+  left: 47%;
   animation-delay: 3s;
   animation-duration: 14s;
 }
@@ -68,7 +70,7 @@ ul.bubbles > li {
 .bubbles > li:nth-child(7) {
   width: 40px;
   height: 40px;
-  left: 63%;
+  left: 56%;
   animation-delay: 9s;
   animation-duration: 15s;
 }
@@ -76,15 +78,15 @@ ul.bubbles > li {
 .bubbles > li:nth-child(8) {
   width: 30px;
   height: 30px;
-  left: 72%;
-  animation-delay: 4s;
+  left: 65%;
+  animation-delay: 7s;
   animation-duration: 13s;
 }
 
 .bubbles > li:nth-child(9) {
   width: 70px;
   height: 70px;
-  left: 81%;
+  left: 74%;
   animation-delay: 3s;
   animation-duration: 16s;
 }
@@ -92,9 +94,17 @@ ul.bubbles > li {
 .bubbles > li:nth-child(10) {
   width: 50px;
   height: 50px;
-  left: 90%;
+  left: 83%;
   animation-delay: 2s;
   animation-duration: 18s;
+}
+
+.bubbles > li:nth-child(11) {
+  width: 30px;
+  height: 30px;
+  left: 92%;
+  animation-delay: 5s;
+  animation-duration: 16s;
 }
 
 @keyframes bubble {

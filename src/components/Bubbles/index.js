@@ -5,7 +5,7 @@ class Bubbles extends Component {
   bubbles = [];
 
   render() {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 11; i++) {
       this.bubbles.push("");
     }
 
