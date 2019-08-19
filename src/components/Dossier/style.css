@@ -39,3 +39,22 @@ div.left-side {
 div.right-side {
   transform-origin: -10px;
 }
+
+@media screen and (max-width: 600px) {
+  div.container {
+    width: 95vw;
+    height: 90vh;
+    max-height: 90vh;
+  }
+
+  div.pages {
+    flex-wrap: wrap;
+  }
+
+  div.left-side, div.right-side {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
