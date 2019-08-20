@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ac41ee7f.chunk.css",
+    "main.css": "/Portfolio/static/css/main.3d0087d6.chunk.css",
     "main.js": "/Portfolio/static/js/main.e8d47592.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.e8d47592.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
@@ -8,9 +8,9 @@
     "static/js/2.893253c4.chunk.js": "/Portfolio/static/js/2.893253c4.chunk.js",
     "static/js/2.893253c4.chunk.js.map": "/Portfolio/static/js/2.893253c4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.bba62d7615a5b994d10eea4433618b99.js": "/Portfolio/precache-manifest.bba62d7615a5b994d10eea4433618b99.js",
+    "precache-manifest.8126e7b473c51ce19cb4be3749115bef.js": "/Portfolio/precache-manifest.8126e7b473c51ce19cb4be3749115bef.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.ac41ee7f.chunk.css.map": "/Portfolio/static/css/main.ac41ee7f.chunk.css.map",
+    "static/css/main.3d0087d6.chunk.css.map": "/Portfolio/static/css/main.3d0087d6.chunk.css.map",
     "static/media/Amazon-Scraper.png": "/Portfolio/static/media/Amazon-Scraper.65fd47e2.png",
     "static/media/Bamazon.png": "/Portfolio/static/media/Bamazon.a02188e2.png",
     "static/media/Burgers-to-Eat.png": "/Portfolio/static/media/Burgers-to-Eat.b1714a21.png",
