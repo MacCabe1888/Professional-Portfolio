@@ -42,19 +42,25 @@ div.right-side {
 
 @media screen and (max-width: 600px) {
   div.container {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: fit-content;
+    max-height: none;
+  }
+
+  div.content {
     width: 95vw;
-    height: 90vh;
-    max-height: 90vh;
+    height: fit-content;
   }
 
   div.pages {
     flex-wrap: wrap;
+    height: fit-content;
   }
 
   div.left-side, div.right-side {
     width: 100%;
-    height: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 5vh 0 0 0;
   }
 }
