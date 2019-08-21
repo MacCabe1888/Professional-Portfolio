@@ -10,11 +10,13 @@ html, body {
 
 @media screen and (max-width: 600px) {
   html {
-    height: 1250%;
-    overflow: auto;
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   #root {
-    height: 100%;
+    height: fit-content;
+    padding-bottom: 5vh;
   }
 }
