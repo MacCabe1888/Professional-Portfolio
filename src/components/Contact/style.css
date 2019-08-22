@@ -3,3 +3,9 @@ section#email, section#phone {
   border-radius: 15px;
   font-size: 1.5vw;
 }
+
+@media screen and (max-width: 600px) {
+  section#email, section#phone {
+    font-size: 3vw;
+  }
+}
