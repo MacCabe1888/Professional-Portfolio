@@ -1,22 +1,26 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  background-image: url("assets/images/koi.png");
 }
 
 #root {
   height: 100vh;
-  background-image: url("assets/images/koi.png");
 }
 
 @media screen and (max-width: 600px) {
   html {
     height: fit-content;
-    overflow-x: hidden;
     overflow-y: auto;
+  }
+
+  body {
+    position: relative;
+    height: fit-content;
   }
 
   #root {
     height: fit-content;
-    padding-bottom: 5vh;
+    margin-bottom: 5vh;
   }
 }
