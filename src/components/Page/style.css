@@ -96,5 +96,6 @@ section {
   div.page {
     position: static;
     border-radius: 20px !important;
+    overflow: hidden;
   }
 }
