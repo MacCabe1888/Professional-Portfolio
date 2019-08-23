@@ -98,4 +98,13 @@ section {
     border-radius: 20px !important;
     overflow: hidden;
   }
+
+  div.active {
+    transform: none !important;
+    border-radius: 20px;
+  }
+
+  div.page.flipped, div.page.unveiled {
+    display: none;
+  }
 }
