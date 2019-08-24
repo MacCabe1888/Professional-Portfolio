@@ -21,6 +21,7 @@ html, body {
 
   #root {
     height: fit-content;
+    min-height: 90vh;
     margin-bottom: 10vh;
   }
 }
