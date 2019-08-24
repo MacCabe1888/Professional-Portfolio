@@ -107,6 +107,29 @@ a.right.active > .nav-tab > .nav-text {
 
 @media screen and (max-width: 600px) {
   nav {
-    display: none;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    display: flex;
+  }
+
+  nav > a, .tab-space {
+    display: flex;
+    width: 25vw;
+    height: 5vh;
+    max-height: none;
+    transform: none !important;
+  }
+
+  .nav-tab {
+    width: 90%;
+    border-radius: 0 0 15px 15px !important;
+  }
+
+  .nav-text {
+    writing-mode: horizontal-tb;
+    line-height: 12px;
+    font-size: 3vw;
+    transform: none !important;
   }
 }
