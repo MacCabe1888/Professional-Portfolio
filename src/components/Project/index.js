@@ -27,13 +27,11 @@ class Project extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="img-container">
-            <img
-              className="project-img"
-              src={this.props.imgSrc}
-              alt={this.props.name}
-            />
-          </div>
+          <img
+            className="project-img"
+            src={this.props.imgSrc}
+            alt={this.props.name}
+          />
         </a>
         <section className="info">
           <p className="name">
