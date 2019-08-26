@@ -110,6 +110,7 @@ a.right.active > .nav-tab > .nav-text {
     width: 100%;
     max-width: none;
     margin: 0;
+    margin-top: -2px;
     display: flex;
   }
 
