@@ -81,6 +81,7 @@ img.tech:first-child:nth-last-child(6) ~ img.tech {
 @media screen and (max-width: 600px) {
   div.tech {
     display: table;
+    width: calc(100% - 10px);
   }
 
   img.tech {
