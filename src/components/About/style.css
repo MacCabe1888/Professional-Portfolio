@@ -38,3 +38,9 @@ section#location {
   padding: 0 16px;
   border-radius: 15px;
 }
+
+@media screen and (max-width: 600px) {
+  section#visit > h3, section#download {
+    display: none;
+  }
+}
