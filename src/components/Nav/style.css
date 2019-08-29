@@ -93,6 +93,10 @@ a.right.active > .nav-tab > .nav-text {
   border-left: 1px #a6d69f solid;
 }
 
+.nav-tab:hover {
+  background-color: #a6d69f;
+}
+
 .nav-tab:focus {
   outline: none;
 }
@@ -107,11 +111,11 @@ a.right.active > .nav-tab > .nav-text {
 
 @media screen and (max-width: 600px) {
   nav {
+    display: flex;
     width: 100%;
     max-width: none;
     margin: 0;
     margin-top: -2px;
-    display: flex;
   }
 
   nav > a, .tab-space {
