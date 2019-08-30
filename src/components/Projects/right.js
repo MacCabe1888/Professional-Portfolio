@@ -17,7 +17,7 @@ import moodie from "../../assets/images/Moodie.jpg";
 import trains from "../../assets/images/Train-Scheduler.jpg";
 import gifs from "../../assets/images/SpongeMeme-SquareGIFs.jpg";
 import trivia from "../../assets/images/Trivia-Game.png";
-import crystals from "../../assets/images/Crystal-Collector-Game.jpg";
+import crystals from "../../assets/images/Crystal-Collector-Game.png";
 import wordGame from "../../assets/images/Word-Game.png";
 
 import react from "../../assets/svg/react.svg";
