@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30fb6c35feb6366f237868fa5af0b316",
+    "revision": "5d7abbccfc6f8bf17f5458f5ca30fbd1",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "aa421ff70ad1e932fa41",
+    "revision": "fbea38e0a4a5372f5081",
     "url": "/Portfolio/static/css/main.6fc3fdac.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.893253c4.chunk.js"
   },
   {
-    "revision": "aa421ff70ad1e932fa41",
-    "url": "/Portfolio/static/js/main.f43c877c.chunk.js"
+    "revision": "fbea38e0a4a5372f5081",
+    "url": "/Portfolio/static/js/main.5297d18e.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Burgers-to-Eat.b1714a21.png"
   },
   {
-    "revision": "ecb108127d0d6dc51ae47e9f57c8cf26",
-    "url": "/Portfolio/static/media/Crystal-Collector-Game.ecb10812.jpg"
+    "revision": "38cce71bee370304f1c5f82171888990",
+    "url": "/Portfolio/static/media/Crystal-Collector-Game.38cce71b.png"
   },
   {
     "revision": "459d49ec41d9c21d2bd72d79fc57e648",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Trivia-Game.5d11304d.png"
   },
   {
-    "revision": "5415ebbfb2f2e3da4e703794641f5fbc",
-    "url": "/Portfolio/static/media/Word-Game.5415ebbf.png"
+    "revision": "8782dbcf2eecd1dfa686d98d4cf20c00",
+    "url": "/Portfolio/static/media/Word-Game.8782dbcf.png"
   },
   {
     "revision": "3e1156a8201197b8e1db5b469f4dcdd7",
