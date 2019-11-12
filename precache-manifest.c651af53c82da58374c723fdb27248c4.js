@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61bd43857458b16ce9e8df669e46f534",
+    "revision": "1822a82b8b73535e23d526ad1a9fb26c",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "3e8d0982e44462ac0021",
+    "revision": "c2c4b670935351bff132",
     "url": "/Portfolio/static/css/main.6fc3fdac.chunk.css"
   },
   {
-    "revision": "07247115e53d4f6f0908",
-    "url": "/Portfolio/static/js/2.893253c4.chunk.js"
+    "revision": "86f44511285bb42ed388",
+    "url": "/Portfolio/static/js/2.d4ce9173.chunk.js"
   },
   {
-    "revision": "3e8d0982e44462ac0021",
-    "url": "/Portfolio/static/js/main.b64b06e6.chunk.js"
+    "revision": "c2c4b670935351bff132",
+    "url": "/Portfolio/static/js/main.6eb93531.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a317e84acea6dbdd5991aabc5a67544c",
     "url": "/Portfolio/static/media/Google-Books-Search.a317e84a.png"
+  },
+  {
+    "revision": "bdf9ce212da78a321ce4435bc3e65b81",
+    "url": "/Portfolio/static/media/JavaScript30.bdf9ce21.png"
   },
   {
     "revision": "2d9ed6240ae7589e1a10f3f9a2437a3e",
