@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Page, Project } from "../";
 import "./style.css";
 
+import js30 from "../../assets/images/JavaScript30.png";
 import goophur from "../../assets/images/goophur.png";
 import books from "../../assets/images/Google-Books-Search.png";
 import re from "../../assets/images/React-Recall-Rearrange.png";
@@ -44,6 +45,23 @@ class ProjectsRight extends Component {
         <h2>
           Projects
         </h2>
+        <Project
+          siteURL="https://maccabe1888.github.io/JavaScript30/"
+          repoURL="https://github.com/MacCabe1888/JavaScript30"
+          imgSrc={js30}
+          name="JavaScript30"
+          description='A 30-day challenge to create 30 projects in HTML, CSS, and "vanilla" JavaScript (i.e., no libraries such as jQuery, React, etc. allowed).'
+          tech={[{
+            src: js,
+            alt: "JavaScript"
+          }, {
+            src: css3,
+            alt: "CSS3"
+          }, {
+            src: html5,
+            alt: "HTML5"
+          }]}
+        />
         <Project
           siteURL="https://goophur.herokuapp.com/"
           repoURL="https://github.com/goophur/site"
